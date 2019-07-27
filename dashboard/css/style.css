@@ -5,18 +5,43 @@
 /*-------------------------------------------------*/
  body {
      color: #73848e;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'IRSans-regular';
      margin: 0px;
      padding: 0px;
      padding-right: 0px !important;
      overflow-x: hidden;
 }
- @font-face {
-     font-family: 'Material Icons';
-     font-style: normal;
-     font-weight: 400;
-     src: local('Material Icons'), local('MaterialIcons-Regular'), url('../fonts/micon.woff2') format('woff2');
+/* fonts */
+@font-face {
+    font-family: 'IRSans-thin';
+    src: url('../fonts/IRSans-thin.woff') format('woff'), url('../fonts/IRSans-thin.ttf') format('truetype');
+    font-weight: 100;
 }
+
+@font-face {
+    font-family: 'IRSans-regular';
+    src: url('../fonts/IRSans-regular.woff') format('woff'), url('../fonts/IRSans-regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'IRSans-light';
+    src: url('../fonts/IRSans-light.woff') format('woff'), url('../fonts/IRSans-light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'IRSans-medium';
+    src: url('../fonts/IRSans-medium.woff') format('woff'), url('../fonts/IRSans-medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'IRSans-bold';
+    src: url('../fonts/IRSans-bold.woff') format('woff'), url('../fonts/IRSans-bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
  .material-icons {
      font-family: 'Material Icons';
      font-weight: normal;
@@ -33,7 +58,7 @@
      -webkit-font-smoothing: antialiased;
 }
  h1, h2, h3, h4, h5, h6 {
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'IRSans-regular';
      color: #2a2b33;
      font-weight: 700;
      margin-top: 0px;
@@ -42,7 +67,7 @@
  p, a, li, span, label, tr, td, th, input {
      color: #636363;
      font-size: 15px;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'IRSans-regular';
      font-weight: 400;
 }
  small, .small {
@@ -5716,12 +5741,13 @@
      margin-top: 59px;
 }
  .sb2-1 {
-     float: left;
+     float: right;
      width: 20%;
      background: #ffffff;
      color: #fff;
      height: 100%;
      position: absolute;
+     right: 0;
      -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
      -o-transition: all 0.5s ease;
@@ -5858,10 +5884,10 @@
      width: 16px;
 }
  .sb2-2 {
-     float: left;
+     float: right;
      width: 80%;
      padding: 40px;
-     margin-left: 20%;
+     margin-right: 20%;
      background: #e3e8ea;
 }
  .sb2-2-1 {
