@@ -10,6 +10,7 @@
      padding: 0px;
      padding-right: 0px !important;
      overflow-x: hidden;
+     direction: rtl
 }
 /* fonts */
 @font-face {
@@ -40,6 +41,13 @@
     font-family: 'IRSans-bold';
     src: url('../fonts/IRSans-bold.woff') format('woff'), url('../fonts/IRSans-bold.ttf') format('truetype');
     font-weight: bold;
+}
+
+ @font-face {
+     font-family: 'Material Icons';
+     font-style: normal;
+     font-weight: 400;
+     src: local('Material Icons'), local('MaterialIcons-Regular'), url('../fonts/micon.woff2') format('woff2');
 }
 
  .material-icons {
@@ -5722,6 +5730,8 @@
      text-transform: uppercase;
 }
  .sb1-1 {
+    text-align: right;
+    padding-right: 20px;
 }
  .sb1-2 {
      float: right;
@@ -5762,7 +5772,7 @@
 }
  .sb2-1 a:hover {
      color: #fff;
-     padding-left: 30px;
+     padding-right: 30px;
      -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
      -o-transition: all 0.5s ease;
@@ -5782,7 +5792,8 @@
      overflow: hidden;
 }
  .sb2-12 ul li {
-     float: left;
+     float: right;
+     text-align: right;
      display: inline-block;
 }
  .sb2-12 ul li:nth-child(1) {
@@ -5824,6 +5835,7 @@
 }
  .sb2-13 ul li {
      list-style-type: none;
+     text-align: right;
     /* border-bottom: 1px solid #303b40;
      */
     /* padding: 3px 20px;
@@ -5844,7 +5856,7 @@
      display: block;
      position: absolute;
      margin-top: -15px;
-     right: 20px;
+     left: 20px;
      font-size: 12px;
      line-height: 1;
      -webkit-font-smoothing: antialiased;
@@ -5880,7 +5892,7 @@
      background: #57666d;
 }
  .sb2-13 ul li a i {
-     margin-right: 8px;
+     margin-left: 8px;
      width: 16px;
 }
  .sb2-2 {
@@ -6013,7 +6025,6 @@
      font-size: 13px;
      color: #626773;
      padding-left: 20px;
-     padding-right: 40px;
      background: transparent;
      border: 1px solid rgba(122, 125, 132, 0.15);
      box-shadow: none;
@@ -6028,11 +6039,12 @@
      */
      height: 35px !important;
      color: #cecece;
+     text-align: right;
 }
  .app-search a {
      position: absolute;
      top: 6px;
-     right: 16px;
+     left: 16px;
      color: #7a7d84;
 }
  .box-second-inn {
@@ -6082,23 +6094,22 @@
      height: 14px;
      border-radius: 10px;
      min-width: 15px;
-     background: #4CAF50;
+     background: #f5cd23;
      color: #fff;
-     line-height: 14px;
+     line-height: 17px;
      padding: 0px 2px;
-     font-size: 11px;
+     font-size: 9px;
      white-space: nowrap;
      -webkit-transform-origin: -10% center;
      -ms-transform-origin: -10% center;
      transform-origin: -10% center;
-     font-family: tahoma;
-     box-shadow: 0 0 0 1px #3d793f;
+     font-family: 'IRSans-regular';
      text-align: center;
 }
  .top-user-pro {
      padding: 18px 20px;
      color: #494b4b;
-     float: right;
+     float: left;
 }
  .top-user-pro img {
      width: 25px;
@@ -6113,7 +6124,7 @@
      float: right !important;
 }
  .page-back a {
-     background: #13addb;
+     background: #f60;
      color: #fff !important;
      font-size: 12px;
      padding: 3px 8px;
@@ -6300,7 +6311,7 @@
  .logo {
 }
  .logo img {
-     width: 100%;
+    margin-top: 8px;
 }
  .tab-menu {
      display: none;
@@ -6311,7 +6322,7 @@
      background: #0e76a8;
      color: #fff;
      position: absolute;
-     left: 240px;
+     right: 240px;
      padding: 5px 8px;
      border-radius: 2px;
      top: 0px;

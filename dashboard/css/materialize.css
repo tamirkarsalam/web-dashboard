@@ -70,7 +70,7 @@
     color: #8b1014 !important;
 }
 .red {
-    background-color: #14addb !important;
+    background-color: #f60 !important;
 }
 .red-text {
     color: #F44336 !important;
@@ -4300,8 +4300,8 @@ html {} @media only screen and (min-width: 0) {
 }
 .btn:hover,
 .btn-large:hover {
-    background: #263a78;
-    background: linear-gradient(to bottom, #455ca2, #263a78);
+    background: #f57018;
+    background: linear-gradient(to bottom, #f60, #f57018);
     color: #fff;
 }
 .btn-floating {
@@ -4736,9 +4736,9 @@ button.btn-floating {
     font-size: 1.6rem;
     line-height: 3rem;
     display: block;
-    float: left;
+    float: right;
     text-align: center;
-    margin-right: 1rem;
+    /*margin-right: 1rem;*/
 }
 .collapsible-body {
     display: none;

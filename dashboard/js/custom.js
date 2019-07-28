@@ -53,13 +53,13 @@ $(document).ready(function() {
 
     //ADMIN LEFT MOBILE MENU OPEN
     $(".atab-menu").on('click', function() {
-        $(".sb2-1").css("left", "0");
+        $(".sb2-1").css("right", "0");
         $(".btn-close-menu").css("display", "inline-block");
     });
 
     //ADMIN LEFT MOBILE MENU CLOSE
     $(".btn-close-menu").on('click', function() {
-        $(".sb2-1").css("left", "-350px");
+        $(".sb2-1").css("right", "-350px");
         $(".btn-close-menu").css("display", "none");
     });
 

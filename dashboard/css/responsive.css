@@ -267,7 +267,8 @@
         border-radius: 2px;
     }
     .logo img {
-        width: 78%;
+        margin-left: 5px;
+        margin-top: 0;
     }
     .sb1 {
         position: fixed;
@@ -284,13 +285,13 @@
         top: 0px;
         box-shadow: 10px 50px 100px rgba(0, 0, 0, 0.8);
         z-index: 9999;
-        left: -350px;
+        right: -350px;
         overflow: scroll;
     }
     .sb2-2 {
         width: 100%;
         padding: 40px;
-        margin-left: 0px;
+        margin-right: 0px;
     }
     .sb1-1 {
         padding: 15px 15px;
@@ -536,7 +537,7 @@
         display: none;
     }
     .sb1-1 {
-        padding: 10px 15px;
+        padding: 10px 15px 0 0;
     }
     .hom-cre-acc-right form {
         padding: 12px 25px;
