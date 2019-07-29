@@ -4944,14 +4944,9 @@
      width: 58%;
      position: relative;
      overflow: hidden;
-     background: #fff;
-     border: 1px solid #dadada;
     /* margin-bottom: 25px;
      */
-     box-shadow: 0px 2px 4px rgba(224, 224, 224, 0.8);
      border-radius: 4px;
-     margin-left: 12px;
-     margin-right: 12px;
 }
  .tz-3 {
      float: left;
@@ -5761,6 +5756,7 @@
      -moz-transition: all 0.5s ease;
      -o-transition: all 0.5s ease;
      transition: all 0.5s ease;
+     box-shadow: -1px 0 1px 0 #eaedef;
 }
  .sb2-1 a {
      color: #494b4b;
@@ -5897,9 +5893,9 @@
  .sb2-2 {
      float: right;
      width: 80%;
-     padding: 40px;
+     padding: 30px 20px;
      margin-right: 20%;
-     background: #e3e8ea;
+     background: #fbfbfb;
 }
  .sb2-2-1 {
      background: #fff;
@@ -5966,17 +5962,17 @@
 }
  .sb2-2-2 {
      position: relative;
-     overflow: hidden;
-     margin-bottom: 15px;
+     margin-bottom: 45px;
 }
  .sb2-2-2 ul {
-     padding: 0px;
-     margin-bottom: 0px;
+    float: right;
+    padding: 0px;
+    margin-bottom: 0px;
 }
  .sb2-2-2 ul li {
      list-style-type: none;
-     float: left;
-     padding-right: 5px;
+     float: right;
+     padding-left: 5px;
 }
  .sb2-2-2 ul li a {
      color: #495d65;
@@ -5985,7 +5981,7 @@
  .sb2-2-2 ul li a i {
      padding-right: 2px;
 }
- .active-bre:before {
+ .active-bre:after {
      content: "/";
      padding: 0 5px;
      color: #333;
@@ -6002,7 +5998,7 @@
 /* 8. TAB AND SEARCH 
 /*-------------------------------------------------------*/
  .tab-inn {
-     padding: 25px;
+     /*padding: 25px;*/
 }
  .tab-posi {
      position: relative;
@@ -6106,7 +6102,7 @@
      text-align: center;
 }
  .top-user-pro {
-     padding: 18px 20px;
+     padding: 18px 0;
      color: #494b4b;
      float: left;
 }
@@ -6120,7 +6116,7 @@
      margin-left: 5px;
 }
  .page-back {
-     float: right !important;
+     float: left;
 }
  .page-back a {
      background: #f60;
@@ -6175,11 +6171,11 @@
      color: #fff;
 }
  .box-inn-sp {
-     background: #fff;
+     /*background: #fff;*/
     /* padding: 25px;
      */
-     border: 1px solid #e3e8ea;
-     margin-bottom: 40px;
+    /* border: 1px solid #e3e8ea;
+     margin-bottom: 40px;*/
 }
  .tab-inn {
 }
@@ -6205,10 +6201,11 @@
  .split-row {
      width: 100%;
      position: relative;
-    /* overflow: hidden;
-     */
+     margin-bottom: 20px;
+     overflow: hidden;
      display: block;
 }
+
  .table-desi i {
      background: #8BC34A;
      color: #ffffff;
@@ -6217,6 +6214,7 @@
      font-size: 13px;
      text-align: center;
      margin-right: 10px;
+}
 }
  .txt-success i {
      color: #ffffff;
