@@ -5615,7 +5615,7 @@ form p:last-child {
 [type="checkbox"].filled-in + label:before,
 [type="checkbox"].filled-in + label:after {
     content: '';
-    left: 0;
+    right: 0;
     position: absolute;
     /* .1s delay is for check animation */
     
@@ -5637,13 +5637,13 @@ form p:last-child {
     height: 20px;
     width: 20px;
     background-color: transparent;
-    border: 2px solid #5a5a5a;
+    border: 1px solid #dadee2;
     top: 5px;
     z-index: 0;
 }
 [type="checkbox"].filled-in:checked + label:before {
     top: 5px;
-    left: 1px;
+    left: 16px;
     width: 8px;
     height: 13px;
     border-top: 2px solid transparent;

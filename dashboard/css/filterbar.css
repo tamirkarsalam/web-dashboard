@@ -1,0 +1,45 @@
+.filter-bar .input-field {
+	margin-top: 0;
+	width: 300px;
+}
+
+.tz-2-com .filter-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	height: 70px;
+	box-shadow: 0 1px 1px 0 #eaedef;
+	background-color: #eaedef;
+	padding: 0 30px;
+}
+
+.tz-2-com .filter-bar .select-wrapper span.caret {
+	left: 8px;
+	right: auto;
+}
+
+.tz-2-com .filter-bar .checkbox-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+.filter-bar .select-wrapper {
+	margin-right: 30px;
+}
+
+.select-wrapper input {
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	text-align: right;
+	font-size: 14px;
+	color: #737373;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #dadee2;
+}
+
+.dropdown-content li {
+	text-align: right;
+}

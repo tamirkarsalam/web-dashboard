@@ -1,0 +1,63 @@
+.report-orders .label {
+	color: #737373;
+	font-family: 'IRSans-light';
+	font-size: 20px;
+}
+
+.card .res {
+	font-size: 26px;
+	font-family: 'IRSans-medium';
+	margin-bottom: 7px;
+}
+
+.card .res-green {
+	color: #21d352;
+}
+
+.card .res-blue {
+	color: #4b9cfd;
+}
+.split-row .report-orders {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 140px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.split-row .report-orders .right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 110px;
+	border-left: 1px dashed #f60;
+	padding-left: 35px;
+	margin-left: 30px;
+}
+
+
+.map-wrapper {
+	margin-top: 20px;
+}
+
+#mapid {
+	height: 400px; 
+}
+
+@media (max-width: 768px) {
+	.split-row .report-orders {
+		flex-direction: column;
+	}
+
+	.split-row .report-orders .right {
+		height: auto;
+		border-left: 0;
+		border-top: 1px dashed #f60;
+		padding-left: 0;
+		margin-left: 0;
+		margin-top: 10px;
+		padding-top: 10px;
+	}
+}
