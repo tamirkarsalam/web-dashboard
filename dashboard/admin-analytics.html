@@ -25,6 +25,18 @@
 	<script src="js/html5shiv.js"></script>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+
+	<!-- initial charts -->
+	<!-- Resources -->
+	<script src="lib/amcharts4/core.js"></script>
+	<script src="lib/amcharts4/charts.js"></script>
+	<script src="lib/amcharts4/themes/kelly.js"></script>
+	<script src="lib/amcharts4/themes/material.js"></script>
+	<script src="lib/amcharts4/themes/animated.js"></script>
+	<script src="js/charts/firstChart.js"></script>
+	<script src="js/charts/secondChart.js"></script>
+	<script src="js/charts/thirdChart.js"></script>
+
 	<!-- initial map -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
 	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
@@ -163,20 +175,42 @@
 				<div class="tz-2 tz-2-admin">
 					<div class="tz-2 tz-2-admin ad-mar-to-min">
 						<div class="tz-2-com tz-2-main">
-							<h4 class="right">نوع سفارشات</h4>
+							<h4 class="right">عنوان گزارش</h4>
 							<div class="split-row">
 								<div class="col-md-12">
 									<div class="box-inn-sp ad-inn-page">
 										<div class="tab-inn ad-tab-inn">
-											<div class="card report-orders">
-												<div>
-													<span class="res res-blue">23%</span>
-													<span class="label">سفارش از لیست موجود</span>
-												</div>
-												<div class="right">
-													<span class="res res-green">67%</span>
-													<span class="label">سفارشات آزاد</span>
-												</div>
+											<div class="chart" id="firstchart">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tz-2 tz-2-admin ad-mar-to-min">
+						<div class="tz-2-com tz-2-main">
+							<h4 class="right">عنوان گزارش</h4>
+							<div class="split-row">
+								<div class="col-md-12">
+									<div class="box-inn-sp ad-inn-page">
+										<div class="tab-inn ad-tab-inn">
+											<div class="chart" id="secondchart">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tz-2 tz-2-admin ad-mar-to-min">
+						<div class="tz-2-com tz-2-main">
+							<h4 class="right">عنوان گزارش</h4>
+							<div class="split-row">
+								<div class="col-md-12">
+									<div class="box-inn-sp ad-inn-page">
+										<div class="tab-inn ad-tab-inn">
+											<div class="chart" id="thirdchart">
 											</div>
 										</div>
 									</div>
