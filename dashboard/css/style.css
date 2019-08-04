@@ -6259,8 +6259,8 @@
     }
      .ad-inn-page {}
 
-     .ad-mar-to-min {
-         margin-top: 40px;
+     .ad-mar-to-min h4 {
+         margin: 5px 0 17px 0;
     }
      .ad-mar-to-min form {
          margin-top: 0px;
