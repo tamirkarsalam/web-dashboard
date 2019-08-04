@@ -74,7 +74,7 @@
      p, a, li, span, label, tr, td, th, input {
          color: #636363;
          font-size: 15px;
-         font-family: 'IRSans-regular';
+         font-family: 'IRSans-regular' !important;
          font-weight: 400;
     }
      small, .small {
@@ -5599,19 +5599,16 @@
          border-radius: 5px;
     }
      .tz-login {
-         background: url(../images/banner5.jpg) #3F51B5;
+         background: #fbfbfb;
          position: relative;
          overflow: hidden;
          padding-top: 50px;
          width: 100%;
          padding-bottom: 50px;
-         background-size: cover;
-         background-attachment: fixed;
     }
      .tz-login::before {
          content: '';
          position: absolute;
-         background: rgba(0, 0, 0, 0.21);
          top: 0px;
          bottom: 0px;
          left: 0px;
@@ -5619,16 +5616,17 @@
          border-radius: 5px;
     }
      .tz-regi-form {
-         margin: 0 auto;
-         width: 45%;
-         background: #fff;
-         padding: 60px 50px 70px 50px;
-         margin-top: 70px;
-         margin-bottom: 70px;
-         border-radius: 5px;
-         text-align: center;
-         position: relative;
-         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
+        margin: 0 auto;
+        width: 45%;
+        background: #fff;
+        padding: 60px 50px 70px 50px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px 1px #e9e9ea;
     }
      .tz-regi-form input {
          padding: 10px;
@@ -5663,12 +5661,12 @@
          padding: 20px;
     }
      .tz-regi-form p {
-         font-size: 18px;
+         font-size: 14px;
          margin-bottom: 0px;
     }
      .tz-regi-form p a {
          color: #2c649e;
-         font-size: 18px;
+         font-size: 16px;
     }
      .full-btn {
          width: 100%;
