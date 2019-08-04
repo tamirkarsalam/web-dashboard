@@ -6030,7 +6030,7 @@
     }
      .app-search {
          position: relative;
-         margin: 12px 15px 8px 5px;
+         margin: 12px 15px 8px -50px;
          font-size: 13px;
          color: #626773;
          padding-left: 20px;
