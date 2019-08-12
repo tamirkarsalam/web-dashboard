@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+	<title>مرکز درخواست تعمیرات و خدمات آنلاین - تعمیرکارسلام</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="content-type" content="text/html" charset="utf-8">
+	<link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="css/materialize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/auth.css" rel="stylesheet">
+</head>
+
+<body data-ng-app="">
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	<section class="tz-register">
+			<img src="images/new/ts-main-logo.svg" class="auth-logo">
+			<div class="log-in-pop">
+				<div class="log-in-pop-right">
+					<a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt=""/>
+					</a>
+					<h4>ورود / عضویت</h4>
+					<p>لطفا کد ارسال شده به تلفن همراه خود را وارد کنید.</p>
+					<form class="s12">
+						<div>
+							<div class="input-field s12">
+								<input type="text" data-ng-model="name1" class="validate">
+								<label>کد فعالسازی</label>
+							</div>
+						</div>
+						<div>
+							<div class="input-field s4">
+								<input type="submit" value="ورود" class="waves-effect waves-light log-in-btn" id="activate-account">
+							</div>
+							<div class="input-field s4 auth-act-resend-wrap">
+								<input type="submit" value="ارسال مجدد کد" class="waves-effect waves-light log-in-btn auth-act-resend">
+							</div>
+						</div>
+						<div>
+							<div class="input-field s12">
+								<a href="forgot-pass.html">بازگشت</a> &nbsp;<a href="index.html" class="auth-register">خانه</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+	</section>
+	<!-- REQUIREMENT Popup END -->
+		<div class="req-pop">
+			<div class="req-pop-in">
+				<div class="req-pop-rhs req-pop-lhs" id="auth-left-profile">
+					<i class="fa fa-times req-pop-clo"></i>
+					<div class="req-pop-sec-1">
+						<h2>ثبت نام به عنوان تعمیرکار</h2>
+						<p>برای ارائه خدمات لطفا اطلاعات زیر را کلمل نملیید</p>
+						<div class="v8-inputs">
+							<form>
+								<ul>
+									<li>
+									  <input type="textbox" placeholder="نام" required>
+									</li>
+									<li>
+									  <input type="textbox" placeholder="نام خانوادگی" required>
+									</li>
+									<li>
+									  <input type="textbox" placeholder="آدرس ایمیل">
+									</li>
+									<li>
+									  <input type="textbox" placeholder="شماره تلفن ثابت">
+									</li>
+									<li>
+									  <input type="textbox" placeholder="ادرس محل تعمیر">
+									</li>
+									<li></li>
+								</ul>
+							</form>
+						</div>
+						<span class="req-nxt req-nxt-1">ادامه</span>
+					</div>
+					<div class="req-pop-sec-2">
+						<form>
+							<ul>
+								<li class="location"></li>
+							</ul>
+						</form>
+						<span class="req-nxt req-nxt-2">مرحله بعد</span>
+					</div>
+					<div class="req-pop-sec-3">
+						<div class="v7-inputs">
+							<form>
+								<ul>
+									<li>
+										<div class="file-field input-field">
+											<div class="tz-up-btn pointer">
+												<span>انتخاب</span>
+												<input type="file">
+											</div>
+											<div class="file-path-wrapper db-v2-pg-inp">
+												<input class="file-path validate" type="text" placeholder="اسکن گواهی عدم سوپیشینه" style="padding-right: 10px"> 
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="file-field input-field">
+											<div class="tz-up-btn pointer">
+												<span>انتخاب</span>
+												<input type="file">
+											</div>
+											<div class="file-path-wrapper db-v2-pg-inp">
+												<input class="file-path validate" type="text" placeholder="مدارک مرتبط با تعمیرات" style="padding-right: 10px"> 
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="file-field input-field">
+											<div class="tz-up-btn pointer">
+												<span>انتخاب</span>
+												<input type="file">
+											</div>
+											<div class="file-path-wrapper db-v2-pg-inp">
+												<input class="file-path validate" type="text" placeholder="اسکن کارت ملی" style="padding-right: 10px"> 
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="file-field input-field">
+											<div class="tz-up-btn pointer">
+												<span>انتخاب</span>
+												<input type="file">
+											</div>
+											<div class="file-path-wrapper db-v2-pg-inp">
+												<input class="file-path validate" type="text" placeholder="اسکن عکس پرسنلی" style="padding-right: 10px"> 
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="file-field input-field">
+											<div class="tz-up-btn pointer">
+												<span>انتخاب</span>
+												<input type="file">
+											</div>
+											<div class="file-path-wrapper db-v2-pg-inp">
+												<input class="file-path validate" type="text" placeholder="اسکن لوگو" style="padding-right: 10px"> 
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="file-field input-field">
+											<div class="tz-up-btn pointer">
+												<span>انتخاب</span>
+												<input type="file">
+											</div>
+											<div class="file-path-wrapper db-v2-pg-inp">
+												<input class="file-path validate" type="text" placeholder="شناسه ملی شرکت یا پروانه کسب" style="padding-right: 10px"> 
+											</div>
+										</div>
+									</li>
+									<li>
+									  <input type="textbox" placeholder="شماره شبا">
+									</li>
+									<li>
+									  <span class="rer-sub-btn">ثبت</span>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+					<div class="req-pop-sec-4">
+						<div>
+							<h2>اطلاعات با موفقیت ثبت شد</h2>
+							<p>Thanks for contacting us! We will get in touch with you shortly</p>
+						</div>
+					</div>
+				</div>
+				<div class="req-pop-rhs" id="auth-right-profile">
+					<i class="fa fa-times req-pop-clo"></i>
+					<div class="req-pop-sec-1">
+						<h2>ثبت نام به عنوان کاربر</h2>
+						<p>برای استفاده از خدمات لطفا اطلاعات زیر را کلمل نملیید</p>
+						<div class="v8-inputs">
+							<form>
+								<ul>
+									<li>
+									  <input type="textbox" placeholder="نام" required>
+									</li>
+									<li>
+									  <input type="textbox" placeholder="نام خانوادگی" required>
+									</li>
+									<li>
+									  <input type="textbox" placeholder="آدرس ایمیل">
+									</li>
+									<li>
+									  <input type="textbox" placeholder="شماره تلفن ثابت">
+									</li>
+									<li>
+									  <input type="textbox" placeholder="ادرس">
+									</li>
+									<li>
+										<div class="file-field input-field">
+											<div class="tz-up-btn pointer">
+												<span>انتخاب</span>
+												<input type="file">
+											</div>
+											<div class="file-path-wrapper db-v2-pg-inp">
+												<input class="file-path validate" type="text" placeholder="تصویر پروفایل" style="padding-right: 10px"> 
+											</div>
+										</div>
+									</li>
+								</ul>
+							</form>
+						</div>
+						<span class="req-nxt req-nxt-1">ادامه</span>
+					</div>
+					<div class="req-pop-sec-2">
+						<form>
+							<ul>
+								<li class="location"></li>
+								<li>
+								  <span class="rer-sub-btn">ثبت</span>
+								</li>
+							</ul>
+						</form>
+					</div>
+					<div class="req-pop-sec-3">
+						<div>
+							<h2>اطلاعات با موفقیت ثبت شد</h2>
+							<p>Thanks for contacting us! We will get in touch with you shortly</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!--SCRIPT FILES-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/materialize.min.js" type="text/javascript"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
