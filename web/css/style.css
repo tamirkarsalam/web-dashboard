@@ -5,7 +5,7 @@
 /*-------------------------------------------------*/
  body {
      color: #73848e;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'IRSans-regular';
      margin: 0px;
      padding: 0px;
      padding-right: 0px !important;
@@ -268,8 +268,8 @@
      position: relative;
 }
  .ts-menu-1 {
-     float: left;
-     width: 8%;
+     float: right;
+     width: 14%;
 }
  .ts-menu-1 a {
 }
@@ -284,7 +284,7 @@
      */
 }
  .ts-menu-2 {
-     float: left;
+     float: right;
      width: 12%;
      padding: 17px 12px 15px 12px;
      border-left: 1px solid #273244;
@@ -312,14 +312,16 @@
      padding: 5px;
 }
  .ts-menu-3 {
-     float: left;
-     width: 60%;
+     float: right;
+     width: 66%;
      padding: 0px 0px 0px 30px;
 }
  .ts-menu-4 {
-     float: left;
+     float: right;
      width: 20%;
      padding: 10px 0px 0px 1px;
+     display: flex;
+     flex-direction: row;
 }
  .top-search {
 }
@@ -1259,11 +1261,12 @@
 /*-------------------------------------------------*/
  footer {
      background: #141f31;
+     text-align: right;
 }
  footer {
      color: #9a9a9a;
      font-weight: 300;
-     padding: 90px 0 50px;
+     padding: 30px 0;
 }
  footer h4, footer .strong {
      color: #636363;
@@ -1331,10 +1334,9 @@
 }
  .foot-social ul li {
      list-style-type: none;
-     float: left;
-     padding-right: 10px;
+     float: right;
+     padding-left: 10px;
      background: none;
-     padding-left: 0px;
 }
  .foot-social ul li i {
      font-size: 16px;
@@ -5572,7 +5574,8 @@
 /* REGISTER AND LOGIN 
 /*-------------------------------------------------------*/
  .tz-register {
-     background: url(../images/face.jpg) #e6e6e6;
+     /*background: url(../images/face.jpg) #e6e6e6;*/
+     background-color: #f9fafc;
      position: relative;
      overflow: hidden;
      padding-top: 50px;
@@ -5580,7 +5583,7 @@
  .tz-register::before {
      content: '';
      position: absolute;
-     background: rgba(33, 48, 59, 0.52);
+     /*background: rgba(33, 48, 59, 0.52);*/
      top: 0px;
      bottom: 0px;
      left: 0px;
@@ -6846,9 +6849,10 @@
      padding: 5px 10px;
      box-sizing: border-box;
      font-size: 14px;
+     text-align: right;
 }
  #top-select-search {
-     background: url(../images/icon/search.png) no-repeat left center #fff;
+     background: no-repeat left center #fff;
      border: 0px;
      height: 38px;
      border-radius: 2px;
@@ -6857,14 +6861,15 @@
      font-size: 14px;
      background-size: 17px;
      background-position-x: 10px;
+     text-align: right;
 }
  .tourz-top-sear-btn {
      height: 38px;
      line-height: 38px;
      outline: none;
      display: block !important;
-     background: url(../images/search_bg1.png) no-repeat center center #f74d40;
-     color: #eac610;
+     background: url(../images/search_bg1.png) no-repeat center center #f60;
+     color: #f60;
      font-weight: 600;
      padding: 7px;
      background-size: 24px;
@@ -6902,20 +6907,19 @@
      white-space: pre;
      overflow: hidden;
      right: 15px;
-     left: 18px;
      top: 20px;
 }
  .tourz-search-form div:nth-child(1) {
      width: 20%;
-     float: left;
+     float: right;
 }
  .tourz-search-form div:nth-child(2) {
      width: 60%;
-     float: left;
+     float: right;
 }
  .tourz-search-form div:nth-child(3) {
      width: 15%;
-     float: left;
+     float: right;
 }
  .tourz-search:before {
      content: '';
@@ -7028,6 +7032,7 @@
 }
  .tourz-top-search-form label{
      top: 10px;
+     text-align: right;
 }
  .tourz-top-search-form div:nth-child(1) {
      width: 20%;
@@ -7165,17 +7170,21 @@
 /* = REGISTER LOGIN POPUPS 
 /*-------------------------------------------------*/
  .log-in-pop {
-     position: relative;
-     overflow: hidden;
+    text-align: right;
+    position: relative;
+    overflow: hidden;
     /* height: 100%;
-     */
+    */
     /* bottom: 0px;
-     */
-     background: #fff;
-     width: 60%;
-     margin: 0 auto;
-     margin-top: 5%;
-     margin-bottom: 5%;
+    */
+    background: #fff;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    border-radius: 3px;
+    width: 500px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
 }
  .log-in-pop-left {
      float: left;
@@ -7244,12 +7253,13 @@
 }
  .log-in-pop-right {
      float: left;
-     width: 60%;
+     width: 100%;
      padding: 50px;
 }
  .log-in-pop-right h4 {
      font-size: 24px;
      margin-bottom: 20px;
+     text-align: center;
 }
  .log-in-pop-right p {
 }
@@ -7261,8 +7271,10 @@
  .log-in-pop-right form label {
      font-size: 14px !important;
      font-weight: 200;
-     left: 15px;
+     right: 50px;
      top: 14px;
+     padding-right: 13px;
+     text-align: right;
 }
  .log-in-pop-right form input {
      border: 1px solid #dfdfdf;
@@ -7272,6 +7284,7 @@
      border-radius: 2px;
      font-size: 15px;
      color: #636363;
+     text-align: right;
 }
  .log-in-pop-right form textarea {
      border: 1px solid #dfdfdf;
@@ -7291,9 +7304,9 @@
      margin-top: 15px;
 }
  .log-in-btn {
-     background: #f4364f;
+     background: #f60;
      color: #fff;
-     padding: 2px 10px;
+     padding: 0px 15px;
      font-weight: 600;
 }
  .pop-close {
