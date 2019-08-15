@@ -64,7 +64,7 @@
      -webkit-font-smoothing: antialiased;
 }
  h1, h2, h3, h4, h5, h6 {
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'IRSans-regular';
      color: #2a2b33;
      font-weight: 700;
      margin-top: 0px;
@@ -73,7 +73,7 @@
  p, a, li, span, label, tr, td, th, input {
      color: #636363;
      font-size: 15px;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'IRSans-regular';
      font-weight: 400;
 }
  small, .small {
@@ -269,15 +269,15 @@
 }
  .ts-menu-1 {
      float: right;
-     width: 14%;
+     width: 19%;
+     text-align: right;
 }
  .ts-menu-1 a {
 }
  .ts-menu-1 a img {
-     width: 57px;
-     padding: 5px;
-     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
-     margin-top: 0px;
+     width: 142px;
+     padding: 6px;
+     margin-top: -6px;
     /* background: rgb(59, 191, 249);
      */
     /* margin-left: 15px;
@@ -313,13 +313,13 @@
 }
  .ts-menu-3 {
      float: right;
-     width: 66%;
-     padding: 0px 0px 0px 30px;
+     width: 62%;
+     padding: 0
 }
  .ts-menu-4 {
      float: right;
-     width: 20%;
-     padding: 10px 0px 0px 1px;
+     width: 19%;
+     padding: 11px 0px 0px 1px;
      display: flex;
      flex-direction: row;
 }
@@ -1266,7 +1266,7 @@
  footer {
      color: #9a9a9a;
      font-weight: 300;
-     padding: 30px 0;
+     padding-bottom: 30px;
 }
  footer h4, footer .strong {
      color: #636363;
@@ -1376,6 +1376,8 @@
      margin-bottom: 0px;
      text-align: center;
      padding: 8px;
+     direction: rtl;
+     font-size: 14px;
 }
  .copy p a {
      color: #636363;
@@ -5578,7 +5580,7 @@
      background-color: #f9fafc;
      position: relative;
      overflow: hidden;
-     padding-top: 50px;
+     padding-top: 90px;
 }
  .tz-register::before {
      content: '';
@@ -6575,7 +6577,7 @@
      float: right;
 }
  .v3-top-ri {
-     padding: 8px 0px;
+     padding: 0px;
 }
  .v3-top-ri ul {
      margin-bottom: 0px;
@@ -6585,20 +6587,26 @@
      float: left;
 }
  .v3-top-ri ul li a {
-     font-size: 14px;
-     color: #fff;
-     border: 1px solid #44526c;
-     font-weight: 400;
-     border-radius: 4px;
-     padding: 6px 10px;
-     margin-left: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #44526c;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-left: 7px;
 }
  .v3-top-ri.v32-top-ri ul li a {
 	color: #000000;
     border: 1px solid #bababa; 
  }
- .v3-top-ri ul li a i {
+ .v3-top-ri ul li a span {
      margin-right: 5px;
+     color: #fff;
+     font-family: 'IRSans-regular';
+     font-size: 14px;
 }
  .v3-add-bus {}
  .v3-menu-sign {
@@ -6862,6 +6870,7 @@
      background-size: 17px;
      background-position-x: 10px;
      text-align: right;
+     font-family: 'IRSans-regular'
 }
  .tourz-top-sear-btn {
      height: 38px;
@@ -6908,6 +6917,7 @@
      overflow: hidden;
      right: 15px;
      top: 20px;
+     font-family: 'IRSans-regular'
 }
  .tourz-search-form div:nth-child(1) {
      width: 20%;
@@ -7181,7 +7191,7 @@
     width: 60%;
     margin: 0 auto;
     margin-top: 5%;
-    margin-bottom: 4%;
+    margin-bottom: 8%;
     border-radius: 3px;
     width: 500px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -7237,7 +7247,7 @@
      color: #fff;
      padding: 12px;
      border-radius: 2px;
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'IRSans-regular';
 }
  .log-in-pop-left ul li:nth-child(1) a {
      background: #39579A;
@@ -7257,22 +7267,30 @@
      padding: 50px;
 }
  .log-in-pop-right h4 {
-     font-size: 24px;
-     margin-bottom: 20px;
+     font-size: 17px;
+     margin-bottom: 13px;
      text-align: center;
+     font-family: 'IRSans-medium';
+     color: #4a4a4a
 }
  .log-in-pop-right p {
+    font-size: 13px;
+    text-align: center;
 }
+ .log-in-pop-right p span {
+    color: #f60;
+ }
  .log-in-pop-right a {
      color: #333;
 }
  .log-in-pop-right form {
+    margin-top: 20px
 }
  .log-in-pop-right form label {
      font-size: 14px !important;
      font-weight: 200;
      right: 50px;
-     top: 14px;
+     top: 10px;
      padding-right: 13px;
      text-align: right;
 }
@@ -7280,7 +7298,7 @@
      border: 1px solid #dfdfdf;
      padding: 8px;
      box-sizing: border-box;
-     height: 45px;
+     height: 40px;
      border-radius: 2px;
      font-size: 15px;
      color: #636363;
@@ -7894,7 +7912,7 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background: rgba(0, 0, 0, 0.7607843137254902);
+    background: rgba(0, 0, 0, 0.42);
     z-index: 99;display:none;
 }
 .req-pop-in{
@@ -7942,12 +7960,16 @@
 .req-pop-rhs h2{
     margin-bottom: 12px;
     font-weight: 600;text-align: center;
+    font-size: 18px;
 }
+
 .req-pop-rhs p{
     margin-bottom: 25px;
 }
 .req-pop-sec-1{}
-.req-pop-sec-1 .v8-chbox{}
+.req-pop-sec-1 .v8-chbox{
+    text-align: center;
+}
 .req-pop-sec-1 .v8-chbox ul{
     overflow: hidden;
     overflow-y: auto;
@@ -7971,7 +7993,7 @@
     color: #748484;
     padding: 10px 40px;
     display: inline-block;
-    float: right;
+/*    float: right;*/
     margin-top: 15px;
     cursor: pointer;
 }
@@ -7984,6 +8006,7 @@
 .v8-inputs form{}
 .v8-inputs form ul{}
 .v8-inputs form ul li{
+    position: relative;
     margin-bottom: 15px;    padding: 0px 15px;
 }
 .v8-inputs form ul li input{
@@ -7991,10 +8014,11 @@
     font-weight: 600;
     color: #1a2a38;
     width: 100%;
-    padding: 5px 20px 5px 45px;
+    padding: 5px 45px 5px 45px;
     height: 42px;
     font-size: 15px;
     border-radius: 2px;
+    text-align: right;
 }
 .v8-inputs form ul li input::placeholder {
 	font-weight: 500;
@@ -8005,26 +8029,27 @@
     font-family: FontAwesome;
     content: "\f002";
     position: absolute;
-    font-size: 18px;
+    font-size: 16px;
     margin: 9px 10px 10px 15px;
-    color: #424a5a;
+    color: #4a4a4a;
     font-weight: 300;
     z-index: 1;
+    right: 25px;
 }
 .v8-inputs form ul li:nth-child(1):before {
     content: "\f007";
 }
 .v8-inputs form ul li:nth-child(2):before {
-    content: "\f095";
+    content: "\f007";
 }
 .v8-inputs form ul li:nth-child(3):before {
-    content: "\f0e0";
+    content: "\f023";
 }
 .v8-inputs form ul li:last-child:before {
     display:none;
 }
 .rer-sub-btn{
-    background: #f74d40;
+    background: #f60;
     color: #fff;
     height: 50px;
     line-height: 50px;
@@ -8035,8 +8060,6 @@
     border-radius: 3px;
     cursor: pointer;
     padding-left: 0;
-    background: -webkit-linear-gradient(to top, #3547ab, #3F51B5);
-    background: linear-gradient(to top, #F44336, #fb5a4e);
     border: 0px;
     border-bottom: 1px solid #ea3224;display: block;
 }
@@ -8047,7 +8070,8 @@
     font-size: 20px;
     cursor: pointer;	
 }
-.req-pop-sec-3 div h2{font-size:42px;}
+.req-pop-sec-3 div h2{font-size:18px;
+color: #2fd673}
 .req-pop-sec-3 div p{    text-align: center;
     font-size: 18px;
     color: #394d53;}

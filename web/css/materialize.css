@@ -5209,7 +5209,7 @@ textarea.materialize-textarea + label:after {
 }
 .input-field {
     position: relative;
-    margin-top: 1rem;
+    margin-top: 30px;
     text-align: center;
 }
 .input-field.inline {
@@ -5229,7 +5229,7 @@ textarea.materialize-textarea + label:after {
     width: calc(100% - 3rem - 1.5rem);
 }
 .input-field label {
-    color: #0e0e0e;
+    color: #4a4a4a;
     font-weight: 500;
     position: absolute;
     top: 14px;
@@ -5239,6 +5239,7 @@ textarea.materialize-textarea + label:after {
     transition: .2s ease-out;
     text-align: initial;
     font-size: 14px;
+    opacity: 0.9
 }
 .input-field label:not(.label-icon).active {
     font-size: 0.8rem;

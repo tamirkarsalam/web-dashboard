@@ -93,10 +93,20 @@ $(document).ready(function() {
 		$(".req-pop-sec-2").show();
     });
 	
+    // show rapaiman rules
+    $("#add-repairman").on('click', function () {
+        $(".repair-pop").fadeIn();
+    });
+
+        // show user register form
+    $("#user-register").on('click', function () {
+        $(".user-register-pop").fadeIn();
+    });
+
 	//SET TIME FOR SHOWING "What you looking for" POPUP
-	setTimeout(function(){
-      $(".req-pop").fadeIn();
-	},5000);
+	// setTimeout(function(){
+ //      $(".req-pop").fadeIn();
+	// },5000);
 	
 	//POPUP CLOSED EVENT
     $(".req-pop-clo").on('click', function() {

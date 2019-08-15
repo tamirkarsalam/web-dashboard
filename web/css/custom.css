@@ -1,0 +1,71 @@
+.activate-code {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.activate-code .input-field label {
+	padding-right: 0 !important;
+	text-align: center !important;
+	font-size: 18px !important;
+	top: 19px;
+}
+
+.activate-code .input-field input {
+	text-align: center;
+}
+
+.activate-code .s12 {
+	padding: 6px;
+	margin-top: 0;
+}
+
+.tz-register .bottom {
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tz-register .bottom .log-in-btn {
+	padding: 0 50px;
+}
+
+.tz-register .bottom .btm-right {
+	font-size: 14px;
+	cursor: pointer;
+	color: #f60;
+	border: 1px #f60 solid ;
+	height: 40px;
+	padding: 0 7px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+}
+
+.tz-register .bottom .btm-right a {
+	color: #f60;
+}
+
+.tz-register .bottom .btm-right .resend {
+	color: #f60
+}
+
+.tz-register .bottom .btm-left {
+	margin-top: 0
+}
+
+.tz-register .resend-counter {
+	margin: 12px 0;
+	text-align: center;
+}
+
+.repair-pop .req-pop-rhs, .user-register-pop .req-pop-rhs {
+	width: 100%;
+	text-align: center;
+}
+
+.user-register-pop .req-pop-rhs .req-pop-sec-2 {
+	display: block;
+}

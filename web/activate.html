@@ -18,6 +18,7 @@
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
 	<!-- RESPONSIVE.CSS ONLY FOR MOBILE AND TABLET VIEWS -->
 	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -104,18 +105,40 @@
 				<div class="log-in-pop-right">
 					<a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
 					</a>
-					<h4>ورود / عضویت</h4>
-					<p>.برای ورود یا ثبت‌ نام لطفا شماره همراه خود را وارد کنید</p>
+					<p>.لطفا کد پنچ رقمی ارسال‌شده به شماره <span class="number">09121111111</span> را وارد نمایید</p>
 					<form class="s12">
-						<div>
+						<div class="activate-code">
 							<div class="input-field s12">
 								<input type="text" data-ng-model="name1" class="validate">
-								<label>شماره همراه</label>
+								<label>*</label>
+							</div>
+							<div class="input-field s12">
+								<input type="text" data-ng-model="name2" class="validate">
+								<label>*</label>
+							</div>
+							<div class="input-field s12">
+								<input type="text" data-ng-model="name3" class="validate">
+								<label>*</label>
+							</div>
+							<div class="input-field s12">
+								<input type="text" data-ng-model="name4" class="validate">
+								<label>*</label>
+							</div>
+							<div class="input-field s12">
+								<input type="text" data-ng-model="name5" class="validate">
+								<label>*</label>
 							</div>
 						</div>
-						<div>
-							<div class="input-field s4">
-								<input type="submit" value="تایید و دریافت کد ورود" class="waves-effect waves-light log-in-btn"> </div>
+						<div class="resend-counter">
+							<span>20 ثانیه</span>
+						</div>
+						<div class="bottom">
+							<div class="input-field s4 btm-left" id="user-register">
+								<input type="submit" value="ورود" class="waves-effect waves-light log-in-btn">
+							</div>
+							<div class="btm-right">
+								<a href="login.html">ویرایش شماره</a>
+							</div>
 						</div>
 <!-- 						<div>
 							<div class="input-field s12"> <a href="forgot-pass.html">Forgot password</a> | <a href="register.html">Create a new account</a> </div>
@@ -221,6 +244,40 @@
 		</div>
 		<!-- GET QUOTES Popup END -->
 	</section>
+	<div class="req-pop user-register-pop">
+			<div class="req-pop-in">
+				<div class="req-pop-rhs">
+					<i class="fa fa-times req-pop-clo"></i>
+					<div class="req-pop-sec-2">
+						<h2>اطلاعات خود را وارد نمایید</h2>
+						<p>برای استفاده بهتر از خدمات لطفا فرم زیر را کامل نمایید</p>
+						<div class="v8-inputs">
+							<form>
+								<ul>
+									<li>
+									  <input type="textbox" placeholder="نام" required>
+									</li>
+									<li>
+									  <input type="textbox" placeholder="نام خانوادگی">
+									</li>
+									<li>
+									  <input type="password" placeholder="پسورد" >
+									</li>
+									<li>
+									  <span class="rer-sub-btn">ثبت</span>
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+					<div class="req-pop-sec-3">
+						<div>
+							<h2>اطلاعات با موفقیت ثبت شد</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	<!--SCRIPT FILES-->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/angular.min.js"></script>
