@@ -1174,6 +1174,8 @@
      width: 85%;
 }
  .web-app-con {
+    text-align: right;
+    direction: rtl;
 }
  .web-app-con h2 {
      font-weight: 100;
@@ -1208,8 +1210,8 @@
      line-height: 34px;
 }
  .web-app-con ul li i {
-     color: #01a0d8;
-     margin-right: 5px;
+     color: #f60;
+     margin-left: 5px;
 }
  .web-app-con form {
      position: relative;
@@ -3171,6 +3173,7 @@
  .list-number ul li:nth-child(2) {
 }
  .inn-list-pop-desc {
+    text-align: right;
 }
  .inn-list-pop-desc h3 {
      font-size: 24px;
@@ -3274,6 +3277,8 @@
 /* HOME PAGE: CREATE A ACCOUNT 
 /*-------------------------------------------------------*/
  .hom-cre-acc-left {
+    text-align: right;
+    direction: rtl;
 }
  .hom-cre-acc-left h3 {
      font-weight: 100;
@@ -3308,12 +3313,13 @@
 }
  .hom-cre-acc-left ul li img {
      text-align: center;
-     float: left;
+     float: right;
      width: 50px;
 }
  .hom-cre-acc-left ul li div {
      display: block;
-     margin-left: 80px;
+     margin-right: 80px;
+     text-align: right;
     /* float: left;
      */
     /* margin-top: 0px;
@@ -3367,6 +3373,7 @@
      line-height: 12px;
      -webkit-transition: border-color .4s, color .4s;
      transition: border-color .4s, color .4s;
+     text-align: right;
     /* -webkit-appearance: none;
      */
      width: 100%;
@@ -4933,17 +4940,17 @@
      position: relative;
      overflow: hidden;
      width: 100%;
-     background: #eaedef;
+     background: #f9fafc;
     /* margin-top: 100px;
      */
      padding: 100px 50px;
 }
  .tz-l {
-     float: left;
+     float: right;
      width: 20%;
 }
  .tz-2 {
-     float: left;
+     float: right;
      width: 58%;
      position: relative;
      overflow: hidden;
@@ -4957,7 +4964,7 @@
      margin-right: 12px;
 }
  .tz-3 {
-     float: left;
+     float: right;
      width: 20%;
      position: relative;
      overflow: hidden;
@@ -4971,11 +4978,11 @@
  .tz-l-1 {
      position: relative;
      overflow: hidden;
-     background: #fff;
-     border: 1px solid #dadada;
+/*     background: #fff;
+     border: 1px solid #dadada;*/
     /* margin-bottom: 25px;
      */
-     box-shadow: 0px 2px 4px rgba(224, 224, 224, 0.8);
+     /*box-shadow: 0px 2px 4px rgba(224, 224, 224, 0.8);*/
      border-radius: 4px;
 }
  .tz-l-1 ul {
@@ -4993,14 +5000,14 @@
      font-size: 32px;
      font-weight: 500;
      line-height: 30px;
-     color: #21252b;
+     color: #f60;
 }
  .tz-l-1 ul li:nth-child(1) {
      width: 100%;
      float: left;
 }
  .tz-l-1 ul li:nth-child(1) img {
-     width: 100%;
+     width: 200px;
 }
  .tz-l-1 ul li:nth-child(2) {
      width: 50%;
@@ -5030,6 +5037,7 @@
  .tz-l-2 ul li {
      border-bottom: 1px solid #eaedef;
      list-style-type: none;
+     text-align: right;
 }
  .tz-l-2 ul li:last-child {
      border-bottom: 0px solid #dcdcdc;
@@ -5053,13 +5061,15 @@
 }
  .tz-l-2 ul li a img {
      width: 20px;
-     margin-right: 8px;
+     margin-left: 8px;
+     float: right;
 }
  .tz-3 h4 {
      margin: 0px;
-     background: #253d52;
+     background: #f6f7f8;
      padding: 15px;
-     color: #fff;
+     color: #737373;
+     text-align: right;
 }
  .tz-3 ul {
      margin-bottom: 0px;
@@ -5073,11 +5083,11 @@
  .tz-3 ul li a {
 }
  .tz-3 ul li a img {
-     float: left;
+     float: right;
      width: 28px;
      height: 28px;
      border-radius: 50px;
-     margin-right: 10px;
+     margin-left: 10px;
 }
  .tz-3 ul li a h5 {
      color: #333;
@@ -5088,13 +5098,16 @@
      overflow: hidden;
      text-transform: capitalize;
      margin-bottom: 0px;
+     text-align: right;
+     direction: rtl;
 }
  .tz-3 ul li a p {
-     padding-left: 40px;
+     padding-right: 40px;
      margin-bottom: 0px;
      color: #969595;
      font-size: 12px;
      line-height: 18px;
+     text-align: right;
 }
  .tz-3 ul li:last-child {
      border-bottom: 0px solid #dcdcdc;
@@ -5104,9 +5117,10 @@
 }
  .tz-2-com h4 {
      margin: 0px;
-     background: #253d52;
+     background: #f6f7f8;
      padding: 15px;
-     color: #fff;
+     color: #737373;
+     text-align: right;
 }
  .tz-2-main {
 }
@@ -5133,7 +5147,7 @@
      font-family: 'Quicksand', sans-serif;
 }
  .tz-2-main-com h2 {
-     color: #14addb;
+     color: #f60;
      font-size: 72px;
 }
  .tz-2-main-com ul {
@@ -5226,6 +5240,8 @@
      padding: 0px 25px;
      background: #fff;
      font-size: 14px;
+     text-align: right;
+     direction: rtl;
 }
  .tz2-form-com form input[type="submit"] {
      padding: 0px;
@@ -5342,6 +5358,8 @@
      padding: 0 0.75rem;
 }
  .tz-com-p {
+    text-align: right;
+    direction: rtl;
 }
  .tz-com-p h5 {
      font-size: 20px;
@@ -5356,28 +5374,35 @@
 }
  .ds-boar-title h2 {
      font-size: 32px;
-     color: #14addb;
+     color: #f60;
      padding-bottom: 10px;
+     text-align: right;
 }
  .ds-boar-title p {
+    text-align: right;
 }
  .tz-db-table {
 }
  .tz-db-table table {
+    direction: rtl;
 }
  .tz-db-table table tr {
      color: #969595;
+     text-align: right;
+     direction: rtl;
 }
  .tz-db-table table tr td {
      font-size: 14px;
      color: #333;
-     padding: 14px 14px 14px 0px;
+     padding: 14px 0px 14px 14px;
+     text-align: right;
 }
  .tz-db-table table tr th {
     font-size: 15px;
     color: #333;
     padding: 14px 14px 14px 0px;
     font-weight: 600;
+    text-align: right;
 }
  .tz-db-table-bor {
 }
@@ -5400,7 +5425,7 @@
     text-align: center;
 }
  .db-list-ststus {
-    background: #35d8a5;
+    background: #2fd673;
     padding: 4px 8px;
     font-weight: 600;
     color: #ffffff;
@@ -5411,7 +5436,7 @@
     border: 0px solid #d3d3d3;
 }
  .db-list-ststus-na {
-    background: #fd8478;
+    background: #ff4747;
     padding: 4px 8px;
     font-weight: 600;
     color: #fff;
@@ -5438,6 +5463,8 @@
 }
  .db-mak-pay-bot p {
      color: #969595;
+     text-align: right;
+     direction: rtl;
 }
  .tz-file-upload {
      padding: 0 0.75rem;
@@ -5480,6 +5507,8 @@
 }
  .tz-mess ul {
      margin-bottom: 0px;
+     display: flex;
+     flex-direction: column;
 }
  .tz-mess ul li {
      border-bottom: 1px solid #dcdcdc;
@@ -5491,28 +5520,31 @@
      color: #333;
      font-size: 18px;
      vertical-align: top;
+     direction: rtl;
+     text-align: right;
 }
  .tz-mess ul li h5 img {
-     float: left;
-     width: 50px;
-     height: 50px;
-     border-radius: 50px;
-     margin-right: 10px;
-     margin-right: 22px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 0;
+    margin-left: 22px
 }
  .tz-mess ul li h5 span {
-     font-size: 12px;
-     color: #fff;
-     padding: 0px 5px 2px 5px;
-     border-radius: 35px;
-     margin-top: 3px;
-     position: absolute;
-     margin-left: 5px;
+    font-size: 12px;
+    color: #fff;
+    padding: 0px 5px 2px 5px;
+    border-radius: 35px;
+    margin-top: 3px;
+    position: absolute;
+    margin-right: 5px;
 }
  .tz-mess ul li p {
-     padding-left: 72px;
+     padding-right: 72px;
      padding-top: 15px;
      color: #969595;
+     text-align: right;
 }
  .tz-msg-read {
      background: #607D8B;
@@ -6376,6 +6408,8 @@
      float: left;
      width: 100%;
      margin-bottom: 40px;
+     text-align: right;
+     direction: rtl;
 }
  .invoice-1-add-left h3 {
 }
@@ -6388,6 +6422,8 @@
      padding: 20px;
      background: #fdfae9;
      border-radius: 4px;
+     direction: rtl;
+     text-align: right;
     /* display: inline-block;
      */
      width: 100%;
@@ -6439,6 +6475,9 @@
  .invoice-print {
      padding: 50px;
 }
+ .invoice-print p {
+     text-align: right;
+}
  .invoice-print a {
      margin-right: 10px;
      font-size: 14px;
@@ -6458,6 +6497,7 @@
      font-size: 20px;
      padding: 0px 8px;
      margin-top: 40px;
+     text-align: right;
 }
  .db-v2-pg-inp {
 }
@@ -6579,6 +6619,7 @@
 }
  .v3-top-ri {
      padding: 0px;
+     cursor: pointer;
 }
  .v3-top-ri ul {
      margin-bottom: 0px;
@@ -6598,6 +6639,63 @@
     border-radius: 4px;
     padding: 6px 10px;
     margin-left: 7px;
+}
+.v3-top-ri ul li img {
+    width: 25px;
+    border-radius: 50px
+}
+
+.v3-top-ri.avatar {
+    display: flex;
+    flex-direction: column;
+}
+
+.v3-top-ri.avatar ul li span {
+    width: 86px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: rtl;
+}
+
+.v3-top-ri.avatar .nav-avatar {
+    width: 210px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+    height: 97px;
+    margin-left: 8px;
+    margin-top: 2px;
+    padding: 20px;
+    display: none;
+}
+
+.v3-top-ri.avatar .nav-avatar a { 
+    color: #636363
+}
+.v3-top-ri.avatar .nav-avatar > div { 
+    direction: rtl;
+    text-align: right;
+}
+
+.v3-top-ri.avatar .nav-avatar > div:hover span, .v3-top-ri.avatar .nav-avatar > div:hover i { 
+    color: #dfdfdf
+}
+
+.v3-top-ri.avatar .nav-avatar > div i { 
+    font-size: 18px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.v3-top-ri.avatar .nav-avatar > div.exit { 
+    margin-top: 20px;
+}
+
+.v3-top-ri ul li i.down {
+    margin-right: 5px;
+    font-size: 10px;
 }
  .v3-top-ri.v32-top-ri ul li a {
 	color: #000000;
@@ -6703,6 +6801,8 @@
  .list-check-out-inn{
      border: 1px solid #dcdcdc;
      margin: 0px;
+     display: flex;
+     flex-direction: row-reverse;
 }
  .list-check-out-inn ul li b{
      color: #000000;
@@ -6710,6 +6810,8 @@
  .chec-out-pay{
      border: 1px solid #dcdcdc;
      padding: 20px;
+     text-align: right;
+     direction: rtl;
 }
  .chec-out-pay h5{
      font-size: 20px;
@@ -8069,7 +8171,8 @@
     right: 10px;
     top: 10px;
     font-size: 20px;
-    cursor: pointer;	
+    cursor: pointer;
+    color: #f60
 }
 .req-pop-sec-3 div h2{font-size:18px;
 color: #2fd673}

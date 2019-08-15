@@ -5222,7 +5222,9 @@ textarea.materialize-textarea + label:after {
     margin-bottom: 1rem;
 }
 .input-field.col label {
-    left: 30px;
+    right: 30px;
+    left: auto;
+    text-align: right;
 }
 .input-field.col .prefix ~ label,
 .input-field.col .prefix ~ .validate ~ label {

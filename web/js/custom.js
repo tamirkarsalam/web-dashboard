@@ -70,6 +70,11 @@ $(document).ready(function() {
     $(".ts-menu").mouseleave(function() {
         $(".cat-menu").fadeOut(50);
     });
+
+    //avatar-drp 
+    $("#avatar-drp").on('click', function() {
+        $(".nav-avatar").toggle("fast");
+    });
 	
     //review replay
     $(".edit-replay").on('click', function() {
