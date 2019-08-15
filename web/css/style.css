@@ -8068,6 +8068,7 @@
 
 .req-pop-rhs p{
     margin-bottom: 25px;
+    direction: rtl;
 }
 .req-pop-sec-1{}
 .req-pop-sec-1 .v8-chbox{
