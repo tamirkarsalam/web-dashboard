@@ -4503,7 +4503,7 @@ button.btn-floating {
     min-height: 50px;
     line-height: 25px;
     width: 100%;
-    text-align: left;
+    text-align: right;
     text-transform: none;
     padding-bottom: 0px !important;
     padding-top: 5px;
@@ -5781,7 +5781,7 @@ select {
 }
 .select-wrapper input.select-dropdown {} .select-wrapper span.caret {
     position: absolute;
-    right: 8px;
+    left: 8px;
     top: 0;
     bottom: 0;
     width: 10px;

@@ -5579,8 +5579,9 @@
      /*background: url(../images/face.jpg) #e6e6e6;*/
      background-color: #f9fafc;
      position: relative;
-     overflow: hidden;
+     /*overflow: hidden;*/
      padding-top: 90px;
+     padding-bottom: 90px;
 }
  .tz-register::before {
      content: '';
@@ -7182,7 +7183,7 @@
  .log-in-pop {
     text-align: right;
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
     /* height: 100%;
     */
     /* bottom: 0px;
@@ -7191,7 +7192,7 @@
     width: 60%;
     margin: 0 auto;
     margin-top: 5%;
-    margin-bottom: 8%;
+    /*margin-bottom: 8%;*/
     border-radius: 3px;
     width: 500px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -7262,7 +7263,7 @@
      padding-right: 7px;
 }
  .log-in-pop-right {
-     float: left;
+     /*float: left;*/
      width: 100%;
      padding: 50px;
 }
@@ -7917,7 +7918,7 @@
 }
 .req-pop-in{
     background: #fff;
-    width: 750px;
+    width: 520px;
     margin: 0 auto;
     margin-top: 40px;
     position: relative;

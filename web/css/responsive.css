@@ -60,7 +60,7 @@
     .ts-menu-5 span {} .ts-menu-5 span i {
 		color: #fff;
 		padding: 11px;
-		background: #01a0d8;
+		background: #f60;
 		margin: 10px 9px 9px 30px;
 		font-size: 16px;
 		cursor: pointer;
@@ -69,9 +69,9 @@
     }
     .ts-menu-1 a img {
         margin-left: 18px;
-        width: 43px;
+        width: 120px;
         padding: 0px;
-        margin: 6px 28px;
+        margin: 2px 28px;
     }
     .v3-mob-top-menu {
         display: block;
