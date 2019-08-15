@@ -4503,7 +4503,7 @@ button.btn-floating {
     min-height: 50px;
     line-height: 25px;
     width: 100%;
-    text-align: right;
+    text-align: left;
     text-transform: none;
     padding-bottom: 0px !important;
     padding-top: 5px;
@@ -5209,7 +5209,7 @@ textarea.materialize-textarea + label:after {
 }
 .input-field {
     position: relative;
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 .input-field.inline {
     display: inline-block;
@@ -5228,10 +5228,11 @@ textarea.materialize-textarea + label:after {
     width: calc(100% - 3rem - 1.5rem);
 }
 .input-field label {
-    color: #737373;
+    color: #0e0e0e;
     font-weight: 500;
     position: absolute;
     top: 14px;
+    left: 0;
     font-size: 1rem;
     cursor: text;
     transition: .2s ease-out;

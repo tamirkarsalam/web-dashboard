@@ -86,52 +86,27 @@ $(document).ready(function() {
 			$(".req-nxt-1").removeClass("nxt-act");
 		}
 	});
-    //What you looking for - Next button
-    $("#auth-left-profile .req-nxt-1").on('click', function() {
-        $("#auth-left-profile .req-nxt-1").hide();
-        $("#auth-left-profile .req-pop-sec-1").hide();
-        $("#auth-left-profile .req-pop-sec-2").show();
-    });
-
-    //What you looking for - Next button
-    $("#auth-left-profile .req-nxt-2").on('click', function() {
-        $("#auth-left-profile .req-nxt-2").hide();
-        $("#auth-left-profile .req-pop-sec-2").hide();
-        $("#auth-left-profile .req-pop-sec-3").show();
-    });
-
-    //What you looking for - Next button
-    $("#auth-right-profile .req-nxt-1").on('click', function() {
-        $("#auth-right-profile .req-nxt-1").hide();
-        $("#auth-right-profile .req-pop-sec-1").hide();
-        $("#auth-right-profile .req-pop-sec-2").show();
-    });
-
-	// show profile form
-    $("#activate-account").on('click', function() {
-        $(".req-pop").fadeIn();
+	//What you looking for - Next button
+    $(".req-nxt-1").on('click', function() {
+		$(".req-nxt-1").hide();
+        $(".req-pop-sec-1").hide();
+		$(".req-pop-sec-2").show();
     });
 	
 	//SET TIME FOR SHOWING "What you looking for" POPUP
-	// setTimeout(function(){
- //      $(".req-pop").fadeIn();
-	// },5000);
+	setTimeout(function(){
+      $(".req-pop").fadeIn();
+	},5000);
 	
 	//POPUP CLOSED EVENT
     $(".req-pop-clo").on('click', function() {
 		$(".req-pop").fadeOut();
     });
 	
-    //POPUP SUBMIT BUTTON EVENT
-    $("#auth-right-profile .rer-sub-btn").on('click', function() {
-        $("#auth-right-profile .req-pop-sec-1, #auth-right-profile .req-pop-sec-2").hide();
-        $("#auth-right-profile .req-pop-sec-3").show();
-    });
-
-    //POPUP SUBMIT BUTTON EVENT
-    $("#auth-left-profile .rer-sub-btn").on('click', function() {
-		$("#auth-left-profile .req-pop-sec-1, #auth-left-profile .req-pop-sec-2, #auth-left-profile .req-pop-sec-3").hide();
-		$("#auth-left-profile .req-pop-sec-4").show();
+	//POPUP SUBMIT BUTTON EVENT
+    $(".rer-sub-btn").on('click', function() {
+		$(".req-pop-sec-1, .req-pop-sec-2").hide();
+		$(".req-pop-sec-3").show();
     });
 	
 	
