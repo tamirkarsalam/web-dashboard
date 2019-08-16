@@ -4997,7 +4997,7 @@
 }
  .tz-l-1 ul li span {
      display: block;
-     font-size: 32px;
+     font-size: 27px;
      font-weight: 500;
      line-height: 30px;
      color: #f60;
@@ -5047,6 +5047,8 @@
      color: #333;
      padding: 12px 0px;
      display: block;
+     font-size: 14px;
+     color: #737373
 }
  .tz-l-2 ul li a:hover {
      color: #333;
@@ -5070,6 +5072,8 @@
      padding: 15px;
      color: #737373;
      text-align: right;
+     direction: rtl;
+     font-size: 17px;
 }
  .tz-3 ul {
      margin-bottom: 0px;
@@ -5090,8 +5094,8 @@
      margin-left: 10px;
 }
  .tz-3 ul li a h5 {
-     color: #333;
-     font-size: 15px;
+     color: #4a4a4a;
+     font-size: 14px;
      margin-top: 0px;
      text-overflow: ellipsis;
      white-space: pre;
@@ -5121,6 +5125,8 @@
      padding: 15px;
      color: #737373;
      text-align: right;
+     direction: rtl;
+     font-size: 17px;
 }
  .tz-2-main {
 }
@@ -5142,13 +5148,13 @@
      margin-bottom: 20px;
 }
  .tz-2-main-com span {
-     font-size: 24px;
+     font-size: 20px;
      font-weight: 600;
      font-family: 'Quicksand', sans-serif;
 }
  .tz-2-main-com h2 {
      color: #f60;
-     font-size: 72px;
+     font-size: 25px;
 }
  .tz-2-main-com ul {
      margin-bottom: 0px;
@@ -5373,7 +5379,7 @@
  .ds-boar-title {
 }
  .ds-boar-title h2 {
-     font-size: 32px;
+     font-size: 20px;
      color: #f60;
      padding-bottom: 10px;
      text-align: right;
@@ -5398,8 +5404,8 @@
      text-align: right;
 }
  .tz-db-table table tr th {
-    font-size: 15px;
-    color: #333;
+    font-size: 14px;
+    color: #4a4a4a;
     padding: 14px 14px 14px 0px;
     font-weight: 600;
     text-align: right;
