@@ -4975,6 +4975,10 @@
      box-shadow: 0px 2px 4px rgba(224, 224, 224, 0.8);
      border-radius: 4px;
 }
+.tz-3 .notifs {
+    color: #737373
+}
+
  .tz-l-1 {
      position: relative;
      overflow: hidden;
@@ -5048,7 +5052,8 @@
      padding: 12px 0px;
      display: block;
      font-size: 14px;
-     color: #737373
+     color: #737373;
+     direction: rtl;
 }
  .tz-l-2 ul li a:hover {
      color: #333;
@@ -5146,14 +5151,15 @@
      padding: 12px;
      border-radius: 5px;
      margin-bottom: 20px;
+     width: 80px;
 }
  .tz-2-main-com span {
      font-size: 20px;
      font-weight: 600;
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'IRSans-regular';
 }
  .tz-2-main-com h2 {
-     color: #f60;
+     color: #737373;
      font-size: 25px;
 }
  .tz-2-main-com ul {
@@ -5261,14 +5267,12 @@
  .full-btn {
      height: 45px;
      line-height: 45px;
-     background: #f74d40;
-     background: linear-gradient(to top, #F44336, #fb5a4e);
+     background: #f60;;
      outline: none;
      font-size: 16px;
      display: block !important;
      color: #fff;
      font-weight: 600;
-     font-family: 'Quicksand', sans-serif;
      text-transform: uppercase;
      text-align: center;
 }
@@ -5406,9 +5410,10 @@
  .tz-db-table table tr th {
     font-size: 14px;
     color: #4a4a4a;
-    padding: 14px 14px 14px 0px;
+    padding: 14px 0px 14px 14px;
     font-weight: 600;
     text-align: right;
+    direction: rtl;
 }
  .tz-db-table-bor {
 }
@@ -5597,7 +5602,7 @@
 }
  .tz-revi-star i {
      font-size: 12px;
-     color: #64addb;
+     color: #f60;
      margin-right: 2px;
 }
  .switch label {
@@ -6500,10 +6505,11 @@
 }
  .db-v2-list-form-inn-tit h5 {
      font-weight: 600;
-     font-size: 20px;
+     font-size: 18px;
      padding: 0px 8px;
      margin-top: 40px;
      text-align: right;
+     color: #4a4a4a
 }
  .db-v2-pg-inp {
 }
@@ -8187,3 +8193,18 @@ color: #2fd673}
     font-size: 18px;
     color: #394d53;}
 .req-pop-sec-3 div img{width:100%;}
+.map-wrapper {
+    height: 400px;
+    border-radius: 3px;
+    border: 1px solid #f6f7f8;
+    margin-top: 20px;
+}
+.save {
+    background-color: #21d352
+}
+.label label {
+    float: right;
+    text-align: right;
+    margin-top: 37px;
+    margin-right: 0;
+}

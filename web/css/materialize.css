@@ -4543,7 +4543,7 @@ button.btn-floating {
 }
 .input-field.col .dropdown-content [type="checkbox"] + label {
     top: 7px;
-    left: 0;
+    right: -10px;
     height: 18px;
 }
 /*!
@@ -5711,10 +5711,10 @@ form p:last-child {
     height: 0;
 }
 .switch label input[type=checkbox]:checked + .lever {
-    background-color: #95d9ee;
+    background-color: #f60;
 }
 .switch label input[type=checkbox]:checked + .lever:after {
-    background-color: #14addb;
+    background-color: #f60;
     left: 24px;
 }
 .switch label .lever {
