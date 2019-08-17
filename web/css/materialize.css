@@ -5231,7 +5231,7 @@ textarea.materialize-textarea + label:after {
     width: calc(100% - 3rem - 1.5rem);
 }
 .input-field label {
-    color: #4a4a4a;
+    color: #737171;
     font-weight: 500;
     position: absolute;
     top: 14px;
