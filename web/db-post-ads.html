@@ -121,60 +121,48 @@
 			<div class="tz-l">
 				<div class="tz-l-1">
 					<ul>
-						<li><img src="images/avatar.svg" alt="" /> </li>
+						<li><img src="images/avatar.svg" alt="" /></li>
 						<li><span>80%</span>کامل شده</li>
-						<li><span>18</span>اعلانات</li>
+						<li><span>18</span>پیام ها</li>
 					</ul>
 				</div>
 				<div class="tz-l-2">
 					<ul>
 						<li>
-							<a href="dashboard.html">
-								<img src="images/profile/dashboard.svg" alt=""/>دشبورد من</a>
+							<a href="dashboard.html"><img src="images/profile/dashboard.svg" alt="" />دشبورد من</a>
 						</li>
 						<li>
-							<a href="db-all-listing.html">
-								<img src="images/profile/listing-black.svg" alt=""/>درخواست ها</a>
+							<a href="db-my-profile.html"><img src="images/profile/my-profile.svg" alt="" />پروفایل من</a>
 						</li>
 						<li>
-							<a href="db-listing-add.html">
-								<img src="images/profile/profile-complete.svg" alt=""/>تکمیل پروفایل</a>
+							<a href="db-listing-add.html"><img src="images/profile/profile-complete.svg" alt="" />تکمیل پروفایل</a>
 						</li>
 						<li>
-							<a href="db-message.html">
-								<img src="images/profile/messages-black.svg" alt=""/>پیام ها (12)</a>
+							<a href="db-all-listing.html"><img src="images/profile/listing-black.svg" alt="" />درخواست ها</a>
 						</li>
 						<li>
-							<a href="db-review.html">
-								<img src="images/profile/review.svg" alt=""/>نظرات (05)</a>
+							<a href="db-message.html"><img src="images/profile/messages-black.svg" alt="" />پیام ها (12)</a>
 						</li>
 						<li>
-							<a href="db-my-profile.html">
-								<img src="images/profile/my-profile.svg" alt="" />پروفایل من</a>
+							<a href="db-review.html"><img src="images/profile/review.svg" alt="" />نظرات (05)</a>
 						</li>
 						<li>
-							<a href="db-post-ads.html" class="tz-lma">
-								<img src="images/profile/add-product.svg" alt="" />افزودن محصول فروش</a>
+							<a href="db-post-ads.html" class="tz-lma"><img src="images/profile/add-product.svg" alt="" />افزودن محصول فروش</a>
 						</li>
 						<li>
-							<a href="db-payment.html">
-								<img src="images/icon/dbl9.png" alt=""> Check Out</a>
+							<a href="db-payment.html"><img src="images/profile/wallet.svg" alt="">کیف پول من</a>
 						</li>
 						<li>
-							<a href="db-invoice-all.html">
-								<img src="images/profile/invoice.svg" alt="" />فاکتورها</a>
-						</li>						
-						<li>
-							<a href="db-claim.html">
-								<img src="images/icon/dbl7.png" alt="" /> Claim & Refund</a>
+							<a href="db-claim.html"><img src="images/profile/refund.svg" alt="" />باز پرداخت</a>
 						</li>
 						<li>
-							<a href="db-setting.html">
-								<img src="images/profile/Setting.svg" alt="" />تنظیمات</a>
+							<a href="db-invoice-all.html"><img src="images/profile/invoice.svg" alt="" />فاکتورها</a>
 						</li>
 						<li>
-							<a href="#!">
-								<img src="images/profile/logout.svg" alt="" />خروج</a>
+							<a href="db-setting.html"><img src="images/profile/Setting.svg" alt="" />تنظیمات</a>
+						</li>
+						<li>
+							<a href="#!"><img src="images/profile/logout.svg" alt="" />خروج</a>
 						</li>
 					</ul>
 				</div>
@@ -193,62 +181,40 @@
 								<div class="row">
 									<div class="input-field col s12">
 										<input type="number" class="validate">
-										<label>User Name</label>
+										<label>عنوان محصول</label>
 									</div>
 								</div>
 								<div class="row">
-									<div class="input-field col s12 m6">
-										<input type="email" class="validate">
-										<label>Email id</label>
+									<div class="input-field col s6">
+										<select>
+											<option value="" disabled selected>وضعیت نمایش</option>
+											<option value="1">فعال</option>
+											<option value="2">غیرفعال</option>
+										</select>
 									</div>
 									<div class="input-field col s12 m6">
 										<input type="number" class="validate">
-										<label>Phone</label>
+										<label>قیمت</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="input-field col s12">
 										<select>
-											<option value="" disabled selected>Where your Ads show</option>
-											<option value="1">Home Page</option>
-											<option value="2">Listing Page</option>
-											<option value="3">Footer Part</option>
-											<option value="3">Header Part</option>
+											<option value="" disabled selected>انتخاب دسته بندی</option>
+											<option value="1">تبلت</option>
+											<option value="2">یخچال</option>
 										</select>
 									</div>
 								</div>	
 								<div class="row">
 									<div class="input-field col s12">
-										<select>
-											<option value="" disabled selected>Select Duration</option>
-											<option value="1">Demo - 5mins - Free</option>
-											<option value="1">One Day - $10</option>
-											<option value="1">One Week - $50</option>
-											<option value="2">One Month - $ 200</option>
-											<option value="3">Two Months - $350</option>
-											<option value="3">Six Months - $700</option>
-											<option value="3">One Year - $1000</option>
-										</select>
-									</div>
-								</div>
-								<div class="row">
-									<div class="input-field col s12">
-										<select>
-											<option value="" disabled selected>Select Status</option>
-											<option value="1">Active</option>
-											<option value="2">Non-Active</option>
-										</select>
-									</div>
-								</div>
-								<div class="row">
-									<div class="input-field col s12">
-										<input type="text" class="validate">
-										<label>Date will show (DD/MM/YYYY)</label>
+										<textarea id="textarea1" class="materialize-textarea"></textarea>
+										<label for="textarea1" class="">توضیحات</label>
 									</div>
 								</div>
 								<div class="row tz-file-upload">
 									<div class="file-field input-field">
-										<div class="tz-up-btn"> <span>انتخاب</span>
+										<div class="tz-up-btn"> <span>انتخاب تصویر</span>
 											<input type="file"> </div>
 										<div class="file-path-wrapper">
 											<input class="file-path validate" type="text"> </div>
@@ -260,14 +226,12 @@
 								</div>
 							</form>
 						</div>
-						<div class="db-mak-pay-bot">
-							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p> <a href="db-setting.html" class="waves-effect waves-light btn-large">تنظیمات</a> </div>
 					</div>
 				</div>
 			</div>
 			<!--RIGHT SECTION-->
 			<div class="tz-3">
-				<h4>اعلانات (18)</h4>
+				<h4>پیام ها (18)</h4>
 				<ul>
 					<li>
 						<a href="#!"> <img src="images/users/1.svg" alt="" />
@@ -366,7 +330,7 @@
 	<!--COPY RIGHTS-->
 	<section class="copy">
 		<div class="container">
-			<p>copyrights © <span id="cryear">2017</span> RN53Themes.net. &nbsp;&nbsp;All rights reserved. </p>
+			<p>© کلیه حقوق مادی و معنوی این سایت متعلق به تعمیرکارسلام می باشد</p>
 		</div>
 	</section>
 	<!--QUOTS POPUP-->

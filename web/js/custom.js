@@ -103,7 +103,12 @@ $(document).ready(function() {
         $(".repair-pop").fadeIn();
     });
 
-        // show user register form
+    // show other product info
+    $('#sp').on('change', function() {
+        $(".other-product-info").fadeIn()
+    });
+
+    // show user register form
     $("#user-register").on('click', function () {
         $(".user-register-pop").fadeIn();
     });

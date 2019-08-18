@@ -4046,6 +4046,7 @@
      border-top: 1px solid #e2e2e2;
      margin-top: 20px;
      padding-top: 20px;
+     text-align: right;
 }
  .lp-ur-all-left {
      float: left;
@@ -4147,7 +4148,7 @@
      padding-bottom: 5px;
 }
  .lr-user-wr-img {
-     float: left;
+     float: right;
     /* width: 10%;
      */
      display: inline-block;
@@ -5246,6 +5247,23 @@
      background: #eaedef;
      margin-top: 15px;
 }
+ .tz2-form-com form textarea {
+    height: 120px;
+    position: relative;
+    padding: 15px 24px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #e8e8e8;
+    text-indent: 0;
+    line-height: 25px;
+    -webkit-transition: border-color .4s, color .4s;
+    transition: border-color .4s, color .4s;
+    /* -webkit-appearance: none; */
+    width: 100%;
+    font-size: 15px;
+    background: #fff;
+ }
+
  .tz2-form-com form input {
      border: 1px solid #e4e4e4;
      line-height: 44px;
@@ -5383,7 +5401,7 @@
  .ds-boar-title {
 }
  .ds-boar-title h2 {
-     font-size: 20px;
+     font-size: 18px;
      color: #f60;
      padding-bottom: 10px;
      text-align: right;
@@ -5471,6 +5489,7 @@
 }
  .db-mak-pay-bot {
      margin-top: 25px;
+     margin-bottom: 95px
 }
  .db-mak-pay-bot p {
      color: #969595;
@@ -5513,6 +5532,7 @@
 }
  .db-mak-pay-bot a {
      font-size: 14px;
+     float: left;
 }
  .tz-mess {
 }
@@ -6400,15 +6420,16 @@
      margin-bottom: 60px;
 }
  .invoice-1-logo img {
+    width: 185px;
 }
  .invoice-1-logo span {
      float: right;
      text-transform: uppercase;
-     font-size: 50px;
-     font-family: 'Quicksand', sans-serif;
+     font-size: 24px;
+     /*font-family: 'Quicksand', sans-serif;*/
      color: #2a2b33;
      font-weight: 700;
-     line-height: 35px;
+     line-height: 75px;
 }
  .invoice-1-add {
      position: relative;
@@ -6576,14 +6597,19 @@
      position: relative;
 }
  .v3-m-1 {
-     float: left;
-     width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -12px;
+    float: right;
+    width: 20%;
 }
  .v3-m-1 img {
-     width: 85%;
+     width: 137px;
+     opacity: 0.8
 }
  .v3-m-2 {
-     float: left;
+     float: right;
      width: 60%;
      padding: 5px 20px;
 }
@@ -6591,15 +6617,18 @@
      margin-bottom: 0px;
 }
  .v3-m-2 ul li {
-     float: left;
+     float: right;
 }
  .v3-m-2 ul li a {
      color: #333;
      padding: 10px 20px;
 }
  .v3-m-3 {
-     float: left;
-     width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    float: right;
+    width: 20%;
 }
  .dropdown-content {
      overflow: visible;
@@ -8125,7 +8154,7 @@
     position: relative;
     margin-bottom: 15px;    padding: 0px 15px;
 }
-.v8-inputs form ul li input{
+.v8-inputs form ul li input, .other-product-info .inputs form ul li input {
     border: 1px solid #d4d4d4;
     font-weight: 600;
     color: #1a2a38;
@@ -8136,6 +8165,10 @@
     border-radius: 2px;
     text-align: right;
 }
+.other-product-info .inputs form ul li input {
+    padding: 5px 20px 5px 45px !important;
+}
+
 .v8-inputs form ul li input::placeholder {
 	font-weight: 500;
     color: #63686e;
@@ -8207,4 +8240,33 @@ color: #2fd673}
     text-align: right;
     margin-top: 37px;
     margin-right: 0;
+}
+.forget-pass {
+    display: block;
+    margin-top: 36px;
+    font-size: 12px;
+    color: #9b9b9b !important;
+}
+
+.increase-wallet {
+    margin-bottom: 20px
+}
+
+.inc-wallet-btn {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    background: #21d352;
+    border-radius: 3px;
+    height: 45px;
+    justify-content: center;
+}
+
+.no-margin {
+   margin-top: 0
+}
+
+.mt-20p {
+    margin-top: 20px
 }

@@ -61,9 +61,13 @@
 	text-align: center;
 }
 
-.repair-pop .req-pop-rhs, .user-register-pop .req-pop-rhs {
+.repair-pop .req-pop-rhs, .user-register-pop .req-pop-rhs, .other-product-info .req-pop-rhs {
 	width: 100%;
 	text-align: center;
+}
+
+.other-product-info .req-pop-rhs .req-pop-sec-2 {
+	display: block;
 }
 
 .user-register-pop .req-pop-rhs .req-pop-sec-2 {

@@ -5428,11 +5428,11 @@ textarea.materialize-textarea {
 [type="radio"]:checked + label:after,
 [type="radio"].with-gap:checked + label:before,
 [type="radio"].with-gap:checked + label:after {
-    border: 2px solid #14addb;
+    border: 2px solid #f60;
 }
 [type="radio"]:checked + label:after,
 [type="radio"].with-gap:checked + label:after {
-    background-color: #14addb;
+    background-color: #f60;
 }
 [type="radio"]:checked + label:after {
     -webkit-transform: scale(1.02);
