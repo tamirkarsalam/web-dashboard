@@ -490,12 +490,12 @@
      padding-bottom: 15px;
      margin-top: 0px;
      font-weight: 600;
-     font-size: 42px;
+     font-size: 26px;
      text-transform: capitalize;
 }
  .com-title h2 span {
      font-weight: 600;
-     font-size: 42px;
+     font-size: 22px;
      color: #2a2b33;
 }
  .com-title p {
@@ -1179,13 +1179,13 @@
 }
  .web-app-con h2 {
      font-weight: 100;
-     font-size: 34px;
+     font-size: 22px;
 }
  .web-app-con h2 span {
      font-family: 'Lato', sans-serif;
      text-transform: capitalize;
      font-weight: 600;
-     font-size: 42px;
+     font-size: 27px;
     /* text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.59);
      */
      color: #333333;
@@ -1206,7 +1206,7 @@
 }
  .web-app-con ul li {
      list-style-type: none;
-     font-size: 18px;
+     font-size: 17px;
      line-height: 34px;
 }
  .web-app-con ul li i {
@@ -3107,13 +3107,15 @@
  .home-list-pop.list-spac img {
 }
  .home-list-pop-desc {
+    text-align: right;
+    direction: rtl;
 }
  .home-list-pop-desc span {
      text-transform: uppercase;
      font-size: 12px;
 }
  .home-list-pop-desc h3 {
-     font-size: 20px;
+     font-size: 18px;
      padding-bottom: 8px;
      color: #000000;
      padding-top: 5px;
@@ -3132,7 +3134,7 @@
      padding: 4px;
      font-weight: 600;
      color: #fff;
-     right: 15px;
+     left: 15px;
      top: 0px;
      font-size: 14px;
      border-radius: 2px;
@@ -3908,7 +3910,7 @@
      margin-right: 1px;
 }
  .share-btn ul li i {
-     padding-right: 3.75pt;
+     padding-left: 3.75pt;
 }
 /*--==== LISTING SERVICES =====--*/
  .pg-list-ser {
@@ -4407,6 +4409,7 @@
      margin-top: -125px;
      padding: 20px 20px 0px 20px;
      display: block;
+     text-align: right;
 }
  .list-mig-lc-con2 {
      margin-top: -90px;
@@ -4486,15 +4489,16 @@
  .how-com ul li {
      position: relative;
      overflow: hidden;
-     padding-left: 95px;
+     padding-right: 95px;
      padding-bottom: 30px;
+     text-align: right;
 }
  .how-com ul li:last-child {
      padding-bottom: 0px;
 }
  .how-com ul li img {
      text-align: center;
-     margin-left: -95px;
+     right: 0;
      position: absolute;
      color: #fff;
 }
@@ -4612,9 +4616,10 @@
      padding: 25px;
      margin-bottom: 25px;
      background: #fff;
+     text-align: right;
 }
  .con-com h4 {
-     font-size: 24px;
+     font-size: 20px;
      padding-bottom: 10px;
      margin-top: 25px;
 }
@@ -4623,7 +4628,8 @@
 }
  .con-com span img {
      width: 20px;
-     margin-right: 15px;
+     margin-left: 15px;
+     float: right;
 }
  .con-com span {
      font-size: 16px;
@@ -4688,6 +4694,8 @@
      */
      padding-top: 7px;
      margin-bottom: 20px;
+     text-align: right;
+     direction: rtl;
 }
  .cpn-pag-form form input, textarea {
      height: 45px;
@@ -4734,9 +4742,11 @@
      width: 100%;
 }
  .page-blog {
+    text-align: right;
+    direction: rtl;
 }
  .page-blog h3 {
-     font-size: 28px;
+     font-size: 19px;
 }
  .page-blog span {
      font-size: 16px;
@@ -4749,6 +4759,7 @@
 }
  .page-blog a {
      width: 200px;
+     float: left;
 }
  .share-pad-bot {
      padding-bottom: 10px;
@@ -4856,7 +4867,7 @@
 /****** Style Star Rating Widget *****/
  .rating {
      border: none;
-     float: left;
+     float: right;
      height: 48px;
      overflow: hidden;
 }
@@ -6564,11 +6575,11 @@
      color: #273440;
      font-size: 16px;
      font-weight: 600;
-     font-family: 'Quicksand', sans-serif;
+     font-family: 'IRSans-regular';
      border: 1px solid #e8e8e8;
 }
  .cat-v2-hom-list ul li a:hover {
-     background: #01a0d8;
+     background: #f60;
      color: #fff;
 }
  .cat-v2-hom-list ul li a img {
@@ -6600,7 +6611,7 @@
  .v3-m-1 {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     margin-top: -12px;
     float: right;
     width: 20%;
@@ -6627,7 +6638,7 @@
  .v3-m-3 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     float: right;
     width: 20%;
 }
@@ -6670,6 +6681,11 @@
  .v3-top-ri ul li {
      float: left;
 }
+
+.v3-top-ri ul li i {
+    margin-left: 5px;
+}
+
  .v3-top-ri ul li a {
     display: flex;
     flex-direction: row;
@@ -6982,6 +6998,7 @@
      box-sizing: border-box;
      font-size: 14px;
      padding-left: 30px;
+     text-align: right;
 }
  #select-search {
      background: url(../images/icon/search.png) no-repeat left center #fff;
@@ -7062,7 +7079,8 @@
      overflow: hidden;
      right: 15px;
      top: 20px;
-     font-family: 'IRSans-regular'
+     font-family: 'IRSans-regular';
+     text-align: right;
 }
  .tourz-search-form div:nth-child(1) {
      width: 20%;
@@ -7096,11 +7114,11 @@
      outline: none;
      display: block !important;
      color: #fff;
-     font-weight: 600;
-     font-family: 'Quicksand', sans-serif;
+     /*font-weight: 600;*/
+     font-family: 'IRSans-medium';
      font-size: 16px;
-     background: #f74d40;
-     background: linear-gradient(to bottom, #ff6155, #f74d40);
+     background: #f60;
+     /*background: linear-gradient(to bottom, #ff6155, #f74d40);*/
      text-transform: uppercase;
 }
  .tourz-hom-ser {
