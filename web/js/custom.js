@@ -104,8 +104,12 @@ $(document).ready(function() {
     });
 
     // show other product info
-    $('#sp').on('change', function() {
-        $(".other-product-info").fadeIn()
+    // $(".other-product-info").fadeIn()
+
+    $("#sp").change(function() {
+        $.each($("#sp option:selected"), function() {            
+            $(".other-product-info").fadeIn()
+        });
     });
 
     // show user register form
