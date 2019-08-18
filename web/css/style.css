@@ -5576,6 +5576,7 @@
      padding-top: 15px;
      color: #969595;
      text-align: right;
+     direction: rtl;
 }
  .tz-msg-read {
      background: #607D8B;
