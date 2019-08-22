@@ -8518,3 +8518,8 @@
     .address-list:first-child {
         margin-top: 30px
     }
+
+    .search-map {
+        height: 300px;
+        display: none;
+    }

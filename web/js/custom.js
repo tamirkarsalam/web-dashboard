@@ -71,6 +71,13 @@ $(document).ready(function() {
         $(".cat-menu").fadeOut(50);
     });
 
+    // show search box 
+    $("#select-search").focusin(function() {
+        $(".search-map").show();
+    }).focusout(function () {
+        $(".search-map").hide();
+    });
+
     //avatar-drp 
     $("#avatar-drp").on('click', function() {
         $(".nav-avatar").toggle("fast");
