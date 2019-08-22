@@ -2134,7 +2134,7 @@ video.responsive-video {
     color: #fff;
 }
 .pagination li.active {
-    background-color: #ee6e73;
+    background-color: #f60;
 }
 .pagination li.disabled a {
     cursor: default;
@@ -5376,7 +5376,7 @@ textarea.materialize-textarea {
 [type="radio"]:not(:checked) + label,
 [type="radio"]:checked + label {
     position: relative;
-    padding-left: 35px;
+    padding-right: 35px;
     cursor: pointer;
     display: inline-block;
     height: 25px;
@@ -5394,7 +5394,7 @@ textarea.materialize-textarea {
 [type="radio"] + label:after {
     content: '';
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     margin: 4px;
     width: 16px;
@@ -5504,7 +5504,8 @@ textarea.materialize-textarea {
 
 form p {
     margin-bottom: 10px;
-    text-align: left;
+    text-align: right;
+    direction: rtl;
 }
 form p:last-child {
     margin-bottom: 0;
@@ -5522,7 +5523,7 @@ form p:last-child {
 }
 [type="checkbox"] + label {
     position: relative;
-    padding-left: 35px;
+    padding-right: 35px;
     cursor: pointer;
     display: inline-block;
     height: 25px;
@@ -5545,7 +5546,7 @@ form p:last-child {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 18px;
     height: 18px;
     z-index: 0;
@@ -5573,9 +5574,9 @@ form p:last-child {
 }
 [type="checkbox"]:checked + label:before {
     top: -4px;
-    left: -5px;
-    width: 12px;
-    height: 22px;
+    right: 11px;
+    width: 9px;
+    height: 17px;
     border-top: 2px solid transparent;
     border-left: 2px solid transparent;
     border-right: 2px solid #14addb;
@@ -5619,7 +5620,7 @@ form p:last-child {
 [type="checkbox"].filled-in + label:before,
 [type="checkbox"].filled-in + label:after {
     content: '';
-    left: 0;
+    right: 0;
     position: absolute;
     /* .1s delay is for check animation */
     
@@ -5647,7 +5648,7 @@ form p:last-child {
 }
 [type="checkbox"].filled-in:checked + label:before {
     top: 5px;
-    left: 1px;
+    right: 10px;
     width: 8px;
     height: 13px;
     border-top: 2px solid transparent;
@@ -5663,8 +5664,8 @@ form p:last-child {
     top: 5px;
     width: 20px;
     height: 20px;
-    border: 2px solid #14addb;
-    background-color: #14addb;
+    border: 2px solid #f60;
+    background-color: #f60;
     z-index: 0;
 }
 [type="checkbox"].filled-in.tabbed:focus + label:after {
@@ -5781,7 +5782,22 @@ select {
 .select-wrapper {
     position: relative;
 }
-.select-wrapper input.select-dropdown {} .select-wrapper span.caret {
+.select-wrapper input.select-dropdown {
+     background: #fff;
+     color: #737371;
+     border: 0px;
+     height: 45px;
+     border-radius: 2px;
+    /* padding: 5px 10px;
+     */
+     box-sizing: border-box;
+     font-size: 14px;
+     padding-left: 30px;
+     padding-right: 13px;
+     text-align: right;
+     border: 1px solid #dfdfdf
+} 
+.select-wrapper span.caret {
     position: absolute;
     left: 8px;
     top: 0;
