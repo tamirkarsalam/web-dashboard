@@ -73,9 +73,7 @@ $(document).ready(function() {
 
     // show search box 
     $("#select-search").focusin(function() {
-        $(".search-map").show();
-    }).focusout(function () {
-        $(".search-map").hide();
+        $(".search-map").fadeIn();
     });
 
     //avatar-drp 
