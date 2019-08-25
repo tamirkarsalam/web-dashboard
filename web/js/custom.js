@@ -74,13 +74,13 @@ $(document).ready(function() {
     // show search box 
     $(".map-compass").click(function() {
         $(".search-map").fadeIn();
-        $(".tourz-search-form").css('margin-bottom', '90px')
+        $(".tourz-search-form").animate({'margin-bottom': '90'}, 'slow');
     });
 
     // hide search box 
     $(".map-close").click(function() {
         $(".search-map").fadeOut();
-        $(".tourz-search-form").css('margin-bottom', '0px')
+        $(".tourz-search-form").animate({'margin-bottom': '0'}, 'slow');
     });
 
     //avatar-drp 

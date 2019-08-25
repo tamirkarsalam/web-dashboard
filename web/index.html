@@ -911,13 +911,18 @@
 					<div class="modal-body dir-pop-body list-pg-write-rev">
 						<form class="form-horizontal col" method="post">
 							<div class="row">
+								<div class="input-field col s12 mb-30p">
+									<div class="switch">
+										<label> قبلا تعمیر شده است
+											<input type="checkbox"> <span class="lever"></span> قبلا تعمیر نشده است 
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="row">
 								<div class="input-field col s6">
-									<select id="sp">
-										<option value="" disabled selected>مدل دستگاه</option>
-										<option value="">تعمیر تبلت و موبال</option>
-										<option value="">تعمیر یخچال</option>
-										<option value="">تعمیر جاروبرقی</option>
-									</select>
+									<input id="re_device" type="text" class="validate">
+									<label for="re_device">مدل دستگاه</label>
 								</div>
 								<div class="input-field col s6">
 									<select id="sp">
@@ -930,7 +935,7 @@
 							</div>
 							<div class="row">
 								<div class="input-field col s6">
-									<input id="re_time" type="email" class="validate">
+									<input id="re_time" type="text" class="validate">
 									<label for="re_time">زمان</label>
 								</div>
 								<div class="input-field col s6">
@@ -938,13 +943,13 @@
 									<label for="re_date">تاریخ</label>
 								</div>
 							</div>
-							<div class="row">
-								<div class="input-field col s12 mb-30p">
-									<div class="switch">
-										<label> قبلا تعمیر شده است
-											<input type="checkbox"> <span class="lever"></span> قبلا تعمیر نشده است 
-										</label>
-									</div>
+							<div class="row upload-wrap">
+								<div class="input-field col s6">
+									<img src="images/upload.svg" class="default-img">
+								</div>
+								<div class="upload-pic file-field col s6">
+									<span>آپلود عکس از دستگاه<br>معیوب</span>
+									<input type="file">
 								</div>
 							</div>
 							<div class="row">

@@ -8422,22 +8422,22 @@
     }
 
     .upload-pic {
-        height: 140px;
-        width: 140px;
+        width: 120px;
         display: flex;
         border: 1px solid #e2e2e2;
-        border-radius: 100%;
-        font-size: 14px;
+        border-radius: 3px;
+        font-size: 16px;
         justify-content: center;
         align-items: center;
         text-align: center;
         cursor: pointer;
         color: #cac5c5;
-        margin-right: 18px;
+        margin: 0;
     }
 
     .upload-pic span { 
-        font-size: 12px
+        font-size: 14px;
+        padding: 10px;
     }
 
     .req-form {
@@ -8601,4 +8601,13 @@
         text-align: right;
         font-size: 14px;
         padding-right: 15px
+    }
+
+    .upload-wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .upload-wrap .default-img {
+        width: 190px;
     }
