@@ -3913,7 +3913,7 @@
     }
      .share-btn ul {
          margin-bottom: 0px;
-         text-align: right;
+         text-align: left;
     }
      .share-btn ul li:nth-child(1) a {
          background: #34af23;
