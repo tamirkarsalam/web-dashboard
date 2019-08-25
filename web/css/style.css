@@ -3245,9 +3245,11 @@
          margin-right: 5px;
     }
      .list-enqu-btn ul li:last-child a {
-         background: #F44336;
-         border: 1px solid #dc2e21;
+         background: #f60;
+         border: 1px solid #f60;
          color: #fff;
+         direction: rtl;
+         text-align: right;
     }
     /*-------------------------------------------------------*/
     /* HOME PAGE: DISCOUNT 
@@ -3572,6 +3574,7 @@
      .list-rat-ch {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: flex-end;
     }
      .list-rat-ch span {
          width: 25px;
@@ -3594,14 +3597,15 @@
          color: #fff;
          /*text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.6);*/
          border: 1px solid #fff;
-         padding: 3px 2px 2px 2px;
+         padding: 3px 6px 2px 6px;
          text-align: center;
          border-radius: 3px;
          background: #f60;
          font-size: 11px;
+         margin-left: 5px;
     }
      .full-btn {
-         width: 100%;
+         width: 200px;
          font-size: 16px;
     }
      .hom-cr-acc-check {
@@ -3736,7 +3740,7 @@
          background: url(../images/list-deta/bg.jpg) no-repeat center bottom;
          background-size: cover;
          position: relative;
-         padding: 200px 0px 230px 0px;
+         padding: 90px 0px 185px 0px;
          width: 100%;
          box-sizing: content-box;
     }
@@ -3832,10 +3836,7 @@
          background: #ffffff;
          border: 1px solid #ffffff;
          color: #162336;
-         padding: 12px 12px;
-         text-overflow: ellipsis;
-         white-space: pre;
-         overflow: hidden;
+         padding: 12px 4px;
          font-size: 14px;
     }
      .pglist-p1 {
@@ -4161,6 +4162,7 @@
          border-radius: 5px;
          vertical-align: sub;
          margin-right: 15px;
+         float: left;
     }
      .lp-ur-all-right p span i {
          font-size: 20px;
@@ -4213,14 +4215,15 @@
          color: #828282;
     }
      .lr-user-wr-con h6 span {
-         background: #55bf15;
+         background: #f60;
          font-size: 15px;
          color: #fff;
          font-weight: 600;
          padding: 4px 4px;
          border-radius: 4px;
          vertical-align: top;
-         margin-left: 6px;
+         margin-right: 6px;
+         float: left;
     }
      .lr-user-wr-con h6 span i {
          font-size: 10px;
@@ -5811,7 +5814,7 @@
          font-size: 18px;
     }
      .full-btn {
-         width: 100%;
+         width: 200px;
          display: block;
     }
      .soc-login {
@@ -6902,23 +6905,22 @@
          float: left;
     }
      .v3-list-ql-inn ul li a {
-         color: #151f31;
+         color: #737171;
          border-right: 1px solid #e0e0e0;
          line-height: 50px;
          display: block;
          padding: 0px 15px;
-         font-size: 14px;
-         font-weight: 600;
+         font-size: 15px;
     }
      .v3-list-ql-inn ul li a i {
          margin-right: 5px;
     }
      .v3-list-ql-inn ul li a:hover {
-         background: #01a0d8;
+         background: #f60;
          color: #fff;
     }
      .v3-list-ql-inn .active-list a {
-         background: #01a0d8;
+         background: #f60;
          color: #fff;
     }
     /*-------------------------------------------------*/
@@ -8537,7 +8539,7 @@
         vertical-align: middle;
         margin-left: 6px;
         font-size: 23px;
-        color: #4a4a4a;
+        color: #f60;
         cursor: pointer;
     }
 
@@ -8637,4 +8639,17 @@
         font-size: 14px;
         color: #737373;
         margin-top: 5px;
+    }
+
+    .user-name {
+        text-align: center;
+        font-size: 14px;
+        color: #737373;
+        margin-top: 6px;
+    }
+
+    .price-rp-profile {
+        background-color: transparent !important;
+        color: #737373 !important;
+        border: 1px solid #e2e2e2 !important
     }

@@ -5485,7 +5485,7 @@ textarea.materialize-textarea {
 /* hover current star */
 
 .rating:not(:checked) > label:hover ~ label {
-    color: #14addb;
+    color: #f60;
 }
 /* hover previous stars in list */
 
