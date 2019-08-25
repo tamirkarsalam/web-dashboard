@@ -8576,11 +8576,15 @@
         cursor: pointer;
     }
     .modal-body {
-        padding: 25px 35px !important;
+        padding: 20px 35px !important;
     }
 
     .mb-30p {
-        margin-bottom: 30px
+        margin-bottom: 19px;
+        margin-top: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .modal-body.list-pg-write-rev {
@@ -8588,7 +8592,7 @@
     }
 
     .list-pg-write-rev .form-horizontal {
-        padding: 7px 50px 25px 50px
+        padding: 2px 50px 25px 50px
     }
 
     .req-pop-in .add-address {
@@ -8609,5 +8613,9 @@
     }
 
     .upload-wrap .default-img {
-        width: 190px;
+        width: 120px;
+    }
+
+    .upload-wrap .input-field {
+        text-align: left;
     }
