@@ -3857,10 +3857,10 @@
      .pglist-p-com-ti h3 {
          padding: 15px 20px;
          background: #fff;
-         font-weight: 700;
-         font-size: 16px;
+         font-size: 17px;
          text-transform: uppercase;
          text-align: right;
+         color: #4a4a4a
     }
      .pglist-p-com-ti h3 span {
          color: #8a8d92;
