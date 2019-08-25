@@ -8421,25 +8421,6 @@
         background-color: #f3f3f3
     }
 
-    .upload-pic {
-        width: 120px;
-        display: flex;
-        border: 1px solid #e2e2e2;
-        border-radius: 3px;
-        font-size: 16px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        cursor: pointer;
-        color: #cac5c5;
-        margin: 0;
-    }
-
-    .upload-pic span { 
-        font-size: 14px;
-        padding: 10px;
-    }
-
     .req-form {
         display: flex;
         flex-direction: row-reverse;
@@ -8580,11 +8561,16 @@
     }
 
     .mb-30p {
-        margin-bottom: 19px;
-        margin-top: 11px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-top: -45px;
+    }
+
+    .mb-30p label {
+        margin-right: -14px;
+    }
+
+    .mb-30p > span {
+       float: right;
+       margin-top: -19px;
     }
 
     .modal-body.list-pg-write-rev {
@@ -8607,13 +8593,15 @@
         padding-right: 15px
     }
 
+    .more-items {
+        display: flex;
+        align-items: center;
+        margin-top: 22px;
+    }
+
     .upload-wrap {
         display: flex;
         align-items: center;
-        margin-top: 35px;
-        border-bottom: 1px solid #e8e8e8;
-        border-top: 1px solid #e8e8e8;
-        padding: 5px 0;
     }
 
     .upload-wrap .default-img {
@@ -8623,4 +8611,17 @@
     .upload-wrap .input-field {
         text-align: left;
         margin-top: 0
+    }
+
+    .list-pg-bg.mt {
+        margin-top: 215px
+    }
+
+    .upload-pic {
+        margin-left: 0 !important;
+    }
+
+    .upload-pic input {
+        width: 132px !important;
+        height: 120px !important;
     }
