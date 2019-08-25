@@ -8610,6 +8610,7 @@
     .upload-wrap {
         display: flex;
         align-items: center;
+        margin-top: 35px;
     }
 
     .upload-wrap .default-img {
@@ -8618,4 +8619,5 @@
 
     .upload-wrap .input-field {
         text-align: left;
+        margin-top: 0
     }
