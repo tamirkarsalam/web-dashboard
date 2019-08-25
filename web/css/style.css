@@ -2250,7 +2250,7 @@
     }
     /*-- SOCIAL MEDIA COLORES --*/
      .fb1 {
-         background: #3b5998;
+         background: #34af23;
     }
      .gp1 {
          background: #dd4b39;
@@ -3916,7 +3916,7 @@
          text-align: right;
     }
      .share-btn ul li:nth-child(1) a {
-         background: #3b5998;
+         background: #34af23;
     }
      .share-btn ul li:nth-child(2) a {
          background: #00aced;
@@ -3925,12 +3925,17 @@
          background: #d34836;
     }
      .share-btn ul li a {
-         padding: 7px;
-         color: #fff;
-         font-weight: 500;
-         font-size: 12px;
-         border-radius: 3px;
-         text-shadow: none;
+         /*padding: 7px;*/
+        color: #fff;
+        font-weight: 500;
+        font-size: 17px;
+        border-radius: 3px;
+        text-shadow: none;
+        width: 27px;
+        height: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
      .share-btn ul li {
          display: inline-block;
@@ -3938,7 +3943,7 @@
          margin-right: 1px;
     }
      .share-btn ul li i {
-         padding-left: 3.75pt;
+         /*padding-left: 3.75pt;*/
     }
     /*--==== LISTING SERVICES =====--*/
      .pg-list-ser {
@@ -8624,4 +8629,12 @@
     .upload-pic input {
         width: 132px !important;
         height: 120px !important;
+    }
+
+    .text-adrs {
+        text-align: right;
+        direction: rtl;
+        font-size: 14px;
+        color: #737373;
+        margin-top: 5px;
     }
