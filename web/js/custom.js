@@ -72,8 +72,15 @@ $(document).ready(function() {
     });
 
     // show search box 
-    $("#select-search").focusin(function() {
+    $(".map-compass").click(function() {
         $(".search-map").fadeIn();
+        $(".tourz-search-form").css('margin-bottom', '90px')
+    });
+
+    // hide search box 
+    $(".map-close").click(function() {
+        $(".search-map").fadeOut();
+        $(".tourz-search-form").css('margin-bottom', '0px')
     });
 
     //avatar-drp 
@@ -106,6 +113,11 @@ $(document).ready(function() {
     // show rapaiman rules
     $("#add-repairman").on('click', function () {
         $(".repair-pop").fadeIn();
+    });
+
+    // show add address rules
+    $("#req-add-address").on('click', function () {
+        $(".add-address-pop").fadeIn();
     });
 
     // show other product info
