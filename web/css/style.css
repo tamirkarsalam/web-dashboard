@@ -8477,9 +8477,9 @@
     .btn-save-adrs {
         width: 180px;
         background-color: transparent;
-        border: 1px solid #f6f7f8;
+        color: #f60;
         border-radius: 3px;
-        color: #737373;
+        border: 1px solid #f60;
         padding: 11px 0;
         margin-bottom: 8px;
     }
@@ -8487,6 +8487,8 @@
     .btn-save-adrs.disabled {
         pointer-events: none;
         cursor: default;
+        color: #737373;
+        border: 1px solid #f6f7f8;
     }
 
     .btn-save-req {
