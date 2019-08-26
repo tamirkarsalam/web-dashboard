@@ -5236,13 +5236,14 @@ textarea.materialize-textarea + label:after {
     font-weight: 500;
     position: absolute;
     top: 14px;
-    left: 0;
+    right: 15px;
     font-size: 1rem;
     cursor: text;
     transition: .2s ease-out;
-    text-align: initial;
+    text-align: right;
     font-size: 14px;
-    opacity: 0.9
+    opacity: 0.9;
+    direction: rtl;
 }
 .input-field label:not(.label-icon).active {
     font-size: 0.8rem;

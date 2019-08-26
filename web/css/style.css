@@ -8805,3 +8805,14 @@
     display: block;
     opacity: 1;
 }
+
+.result-search-filter-rad li {
+    float: right;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.result-search-filter-rad li label {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
