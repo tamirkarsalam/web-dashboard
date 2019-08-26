@@ -133,7 +133,7 @@
 							</div>
 						</div>
 						<div class="resend-counter">
-							<span>20 ثانیه</span>
+							<span id="wrapper-count"><span id="counter-active">60</span> ثانیه</span>
 						</div>
 						<div class="bottom">
 							<div class="input-field s4 btm-left" id="user-register">
@@ -237,6 +237,21 @@
 	<script src="js/bootstrap.js" type="text/javascript"></script>
 	<script src="js/materialize.min.js" type="text/javascript"></script>
 	<script src="js/custom.js"></script>
+	<script type="text/javascript">
+		// counter
+		var count = 61;
+		var counterIncrement= -1;
+		var counter = setInterval(timer, 1000); 
+
+		function timer() {
+			count = count+counterIncrement;
+			if (count == 0) {
+				document.getElementById('wrapper-count').innerHTML = '<a class="resend">ارسال مجدد کد فعالسازی</a>';
+				clearInterval(counter);
+			}
+			document.getElementById('counter-active').innerHTML = count;
+		}
+	</script>
 </body>
 
 </html>

@@ -8818,3 +8818,13 @@
     font-size: 15px !important;
     font-weight: 500 !important;
 }
+
+.resend-counter {
+    direction: rtl;
+}
+
+.resend {
+    font-size: 14px;
+    color: #737373;
+    cursor: pointer;
+}

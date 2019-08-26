@@ -1,6 +1,6 @@
 $(document).ready(function() {
     "use strict";
-	
+    
 	//COPYRIGHR YEAR UPDATE
 	$("#cryear").text("2019");
 	

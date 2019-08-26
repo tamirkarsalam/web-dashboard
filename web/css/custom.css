@@ -9,6 +9,11 @@
 	text-align: center !important;
 	font-size: 18px !important;
 	top: 19px;
+
+}
+
+.activate-code .input-field label {
+	right: 0 !important
 }
 
 .activate-code .input-field input {
