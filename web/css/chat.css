@@ -6,7 +6,7 @@
   min-height: 300px;
   max-height: 720px;
   background: #E6EAEA;
-  margin: 112px auto;
+  margin: 0 auto;
 }
 @media screen and (max-width: 360px) {
   #frame {
@@ -487,7 +487,7 @@
 }
 #frame .content {
   float: right;
-  width: 60%;
+  width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -499,9 +499,9 @@
   }
 }
 @media screen and (min-width: 900px) {
-  #frame .content {
+ /* #frame .content {
     width: calc(100% - 340px);
-  }
+  }*/
 }
 #frame .content .contact-profile {
   width: 100%;
