@@ -4404,6 +4404,7 @@
     }
      .list-pg-upro a {
          background: #f60;
+         margin: 0 auto;
     }
      .list-pg-map {
     }
@@ -8490,7 +8491,7 @@
 
     .btn-save-req {
         width: 180px;
-        margin: 0 auto;
+        /*margin: 0 auto;*/
     }
 
     .add-address .map {
