@@ -1,9 +1,8 @@
 $(document).ready(function() {
     "use strict";
-    
 	//COPYRIGHR YEAR UPDATE
 	$("#cryear").text("2019");
-	
+    
     //LEFT MOBILE MENU OPEN
     $(".ts-menu-5").on('click', function() {
         $(".mob-right-nav").css('right', '0px');
@@ -68,6 +67,11 @@ $(document).ready(function() {
     // active add request
     $('.btn-save-adrs').on('click', function() {
         $('.btn-save-req').removeClass('disabled');
+    })
+
+    // active زchat
+    $('.btn-save-estimate').on('click', function() {
+        $('#chat-btn').removeClass('disabled');
     })
 
     //ADMIN LEFT MOBILE MENU OPEN
