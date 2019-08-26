@@ -4298,6 +4298,7 @@ html {} @media only screen and (min-width: 0) {
     color: #fff;
     background: #14addb;
     font-weight: 600;
+    font-size: 14px;
 }
 .btn:hover,
 .btn-large:hover {

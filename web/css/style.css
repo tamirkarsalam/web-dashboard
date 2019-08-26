@@ -5470,7 +5470,7 @@
          line-height: 3rem;
          height: 45px;
          padding: 10px 25px;
-         background: #14addb;
+         background: #ddd;
          color: #fff;
     }
      .tz-file-upload {
@@ -5615,11 +5615,11 @@
          line-height: 3rem;
          height: 45px;
          padding: 8px 25px 10px 25px;
-         background: #eac610;
+         background: #ddd;
          color: #fff;
     }
      .tz-up-btn span {
-         color: #fff;
+         color: #4a4a4a;
     }
      .db-mak-pay-bot a {
          font-size: 14px;
@@ -8839,9 +8839,16 @@
 .lr-user-wr-con .bottom > div {
     margin-left: 10px;
     border: 1px solid #ddd;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 3px;
     cursor: pointer;
+    color: #4a4a4a;
+    font-weight: 500;
+}
+
+.lr-user-wr-con .bottom > div a {
+    color: #4a4a4a;
+    font-size: 14px;
 }
 
 .lr-user-wr-con .bottom .chat.disabled {
@@ -8851,6 +8858,48 @@
     border: 1px solid #f6f7f8;
 }
 
+.lr-user-wr-con .bottom .chat.disabled a {
+    color: #ddd;
+}
+
 .tz-2.wide {
     width: 78%
+}
+
+.final-step-chat {
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+    align-items: center;
+}
+
+.final-step-chat span {
+    height: 40px;
+    border: 1px solid #f60;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+    border-radius: 19px;
+    color: #f60;
+    cursor: pointer;
+}
+
+.wrap button i {
+    font-size: 16px;
+}
+
+.btn-wrap {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.btn-wrap .attach {
+    border-left: 1px solid #fff !important;
+    background-color: #ddd !important;
+    color: #4a4a4a !important
+}
+
+.off-req {
+    margin-left: 5px
 }

@@ -18,6 +18,7 @@
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
 	<!-- RESPONSIVE.CSS ONLY FOR MOBILE AND TABLET VIEWS -->
 	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/chat.css" rel="stylesheet">
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -174,27 +175,67 @@
 				</div>
 			</div>
 			<!--CENTER SECTION-->
-			<div class="tz-2 wide">
+				<div class="tz-2 wide">
 				<div class="tz-2-com tz-2-main">
 					<h4>جزییات پیام</h4>
 					<div class="db-list-com tz-db-table">
-						<div class="lp-ur-all-rat">
-							<ul>
-								<li>
-									<div class="lr-user-wr-img"> <img src="images/users/1.svg" alt=""> </div>
-									<div class="lr-user-wr-con">
-										<h6>Jacob Michael</h6> <span class="lr-revi-date">19th January, 2017</span>
-										<p>Good service... nice and clean rooms... very good spread of buffet and friendly staffs. Located in heart of city and easy to reach any places in a short distance. </p>
-										<div class="bottom">
-											<div data-dismiss="modal" data-toggle="modal" data-target="#list-quo">برآورد هزینه</div>
-											<div>تایید</div>
-											<div class="chat disabled" id="chat-btn">
-												<a href="db-chat.html">شروع گفتگو</a>
-											</div>
+							<section id="frame">
+								<div class="content">
+									<div class="contact-profile">
+										<div class="final-step-chat">
+											<span data-dismiss="modal" data-toggle="modal" data-target="#list-quo">اعلام نتیجه سفارش <i class="fa fa-power-off off-req"></i></span>
 										</div>
 									</div>
-								</li>
-							</ul>
+									<div class="messages">
+										<ul>
+											<li class="sent">
+												<img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
+												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+											</li>
+											<li class="replies">
+												<img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان</p>
+											</li>
+											<li class="replies">
+												<img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از</p>
+											</li>
+											<li class="sent">
+												<img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
+												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت</p>
+											</li>
+											<li class="replies">
+												<img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+												<p>لورم ایپسوم متن ساختگی با </p>
+											</li>
+											<li class="replies">
+												<img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان </p>
+											</li>
+											<li class="sent">
+												<img src="http://emilcarlsson.se/assets/mikeross.png" alt="" />
+												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. </p>
+											</li>
+											<li class="replies">
+												<img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
+												<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و</p>
+											</li>
+										</ul>
+									</div>
+									<div class="message-input">
+										<div class="wrap">
+										<input type="text" placeholder="پیام خود را تایپ کنید..." />
+										<span class="btn-wrap">
+											<button class="file-field attach">
+												<i class="fa fa-paperclip"></i>
+												<input type="file">
+											</button>
+											<button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+										</span>
+										</div>
+									</div>
+								</div>
+							</section>
 						</div>
 					</div>
 				</div>
@@ -256,32 +297,28 @@
 				<div class="modal-content">
 					<div class="modal-header dir-pop-head">
 						<button type="button" class="close" data-dismiss="modal">×</button>
-						<h4 class="modal-title">برآورد هزینه</h4>
+						<h4 class="modal-title">اعلام هزینه نهایی</h4>
 						<!--<i class="fa fa-pencil dir-pop-head-icon" aria-hidden="true"></i>-->
 					</div>
 					<div class="modal-body dir-pop-body list-pg-write-rev">
 						<form class="form-horizontal col" method="post">
-							<div class="row">
-								<div class="input-field col s6">
-									<input id="re_p-money" type="text" class="validate">
-									<label for="re_p-money">هزینه قطعه (اختیاری)</label>
-								</div>
-								<div class="input-field col s6">
-									<input id="re_money" type="text" class="validate">
-									<label for="re_mpny">دستمزد (الزامی)</label>
-								</div>
-							</div>
-							<div class="row">
 								<div class="input-field col s12">
 									<textarea id="re_msg" class="materialize-textarea"></textarea>
 									<label for="re_msg">پیام</label>
 								</div>
-							</div>
-							<div class="row">
-								<div class="input-field col s12">
-									<a class="waves-effect waves-light btn-large full-btn btn-save-estimate" href="#">ارسال</a>
+								<div class="row">
+									<div class="input-field col s3">
+										<a class="waves-effect waves-light btn-large full-btn btn-save-estimate" href="#" style="width: 100%">پذیرش</a>
+									</div>
+									<div class="input-field col s5">
+										<input id="re_p-money" type="text" class="validate">
+										<label for="re_p-money">هزینه قطعه (اختیاری)</label>
+									</div>
+									<div class="input-field col s4">
+										<input id="re_money" type="text" class="validate">
+										<label for="re_mpny">دستمزد (الزامی)</label>
+									</div>
 								</div>
-							</div>
 						</form>
 					</div>
 				</div>
@@ -294,6 +331,63 @@
 	<script src="js/bootstrap.js" type="text/javascript"></script>
 	<script src="js/materialize.min.js" type="text/javascript"></script>
 	<script src="js/custom.js"></script>
+	<script >$(".messages").animate({ scrollTop: $(document).height() }, "fast");
+
+	  $("#profile-img").click(function() {
+	  	$("#status-options").toggleClass("active");
+	  });
+
+	  $(".expand-button").click(function() {
+	    $("#profile").toggleClass("expanded");
+	  	$("#contacts").toggleClass("expanded");
+	  });
+
+	  $("#status-options ul li").click(function() {
+	  	$("#profile-img").removeClass();
+	  	$("#status-online").removeClass("active");
+	  	$("#status-away").removeClass("active");
+	  	$("#status-busy").removeClass("active");
+	  	$("#status-offline").removeClass("active");
+	  	$(this).addClass("active");
+	  	
+	  	if($("#status-online").hasClass("active")) {
+	  		$("#profile-img").addClass("online");
+	  	} else if ($("#status-away").hasClass("active")) {
+	  		$("#profile-img").addClass("away");
+	  	} else if ($("#status-busy").hasClass("active")) {
+	  		$("#profile-img").addClass("busy");
+	  	} else if ($("#status-offline").hasClass("active")) {
+	  		$("#profile-img").addClass("offline");
+	  	} else {
+	  		$("#profile-img").removeClass();
+	  	};
+	  	
+	  	$("#status-options").removeClass("active");
+	  });
+
+	  function newMessage() {
+	  	message = $(".message-input input").val();
+	  	if($.trim(message) == '') {
+	  		return false;
+	  	}
+	  	$('<li class="sent"><img src="http://emilcarlsson.se/assets/mikeross.png" alt="" /><p>' + message + '</p></li>').appendTo($('.messages ul'));
+	  	$('.message-input input').val(null);
+	  	$('.contact.active .preview').html('<span>You: </span>' + message);
+	  	$(".messages").animate({ scrollTop: $(document).height() }, "fast");
+	  };
+
+	  $('.submit').click(function() {
+	    newMessage();
+	  });
+
+	  $(window).on('keydown', function(e) {
+	    if (e.which == 13) {
+	      newMessage();
+	      return false;
+	    }
+	  });
+	  //# sourceURL=pen.js
+	  </script>
 </body>
 
 </html>
