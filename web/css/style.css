@@ -3573,8 +3573,14 @@
     }
      .list-rat-ch {
         display: flex;
-        flex-direction: row-reverse;
+        /*flex-direction: row-reverse;*/
         justify-content: flex-end;
+    }
+
+    .list-rat-ch.reverse {
+        /*display: flex;*/
+        flex-direction: row-reverse;
+        /*justify-content: flex-end;*/
     }
      .list-rat-ch span {
          width: 25px;
