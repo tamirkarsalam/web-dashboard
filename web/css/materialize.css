@@ -5210,7 +5210,7 @@ textarea.materialize-textarea + label:after {
 }
 .input-field {
     position: relative;
-    margin-top: 30px;
+    margin-top: 25px;
     text-align: center;
 }
 .input-field.inline {
@@ -5725,7 +5725,7 @@ form p:last-child {
     position: relative;
     width: 40px;
     height: 15px;
-    background-color: #818181;
+    background-color: #4a4a4a;
     border-radius: 15px;
     margin-right: 10px;
     transition: background 0.3s ease;

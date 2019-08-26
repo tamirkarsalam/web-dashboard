@@ -900,6 +900,7 @@
 		</section>
 		<section>
 		<!-- GET QUOTES POPUP -->
+		<section>
 		<div class="modal fade dir-pop-com" id="list-quo" role="dialog">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -911,27 +912,25 @@
 					<div class="modal-body dir-pop-body list-pg-write-rev">
 						<form class="form-horizontal col" method="post">
 							<div class="row">
-								<div class="input-field col s6">
+								<div class="input-field col s4">
 									<input id="re_device" type="text" class="validate">
 									<label for="re_device">مدل دستگاه</label>
 								</div>
-								<div class="input-field col s6">
+								<div class="input-field col s4">
 									<select id="sp">
-										<option value="" disabled selected>انتخاب برند</option>
+										<option value="" disabled selected>برند</option>
+										<option value="">LG</option>
+										<option value="">Apple</option>
+										<option value="">SS</option>
+									</select>
+								</div>
+								<div class="input-field col s4">
+									<select id="sp">
+										<option value="" disabled selected>نوع دستگاه</option>
 										<option value="">تعمیر تبلت و موبال</option>
 										<option value="">تعمیر یخچال</option>
 										<option value="">تعمیر جاروبرقی</option>
 									</select>
-								</div>
-							</div>
-							<div class="row">
-								<div class="input-field col s6">
-									<input id="re_time" type="text" class="validate">
-									<label for="re_time">زمان</label>
-								</div>
-								<div class="input-field col s6">
-									<input id="re_date" type="text" class="validate">
-									<label for="re_date">تاریخ</label>
 								</div>
 							</div>
 							<div class="row">
@@ -941,15 +940,15 @@
 								</div>
 							</div>
 							<div class="row more-items">
-								<div class="upload-wrap col s8">
+								<div class="upload-wrap col s6">
 									<div class="upload-pic file-field col s6">
 										<span><img src="images/upload.svg" class="default-img"></span>
 										<input type="file">
 									</div>
 									<span>افزودن تصویر</span>
 								</div>
-								<div class="input-field col s4 mb-30p">
-									<div class="switch">
+								<div class="input-field col s6 mb-30p">
+									<div class="switch" id="togBtn">
 										<label> آری 
 											<input type="checkbox"> <span class="lever"></span> خیر 
 										</label>
@@ -959,10 +958,10 @@
 							</div>
 							<div class="row">
 								<div class="input-field col s6">
-									<a class="waves-effect waves-light btn-large full-btn btn-save-req" href="index.html">ثبت در خواست</a>
+									<a class="waves-effect waves-light btn-large full-btn btn-save-req disabled" href="index.html">ثبت سفارش</a>
 								</div>
-								<div class="input-field col s6">
-									<a class="waves-effect waves-light btn-save-adrs" id="req-add-address">افزودن آدرس</a>
+								<div class="input-field col s6 rtl-btn">
+									<a class="waves-effect waves-light btn-save-adrs disabled" id="req-add-address">افزودن آدرس</a>
 								</div>
 							</div>
 						</form>
@@ -977,13 +976,23 @@
 				<i class="fa fa-times req-pop-clo"></i>
 				<div class="add-address list-pg-write-rev">
 					<form>
-						<div class="input-field col s12">
-							<input id="re_address" type="text" class="validate">
-							<label for="re_address">آدرس خود را بصورت کامل وارد نمایید.</label>
+						<div class="row">
+							<div class="input-field col s6">
+								<input id="re_time" type="text" class="validate">
+								<label for="re_time">زمان</label>
+							</div>
+							<div class="input-field col s6">
+								<input id="re_date" type="text" class="validate">
+								<label for="re_date">تاریخ</label>
+							</div>
 						</div>
-						<div class="map" id="mapid2"></div>
+						<div class="input-field col s12 other-mr">
+							<input id="re_address" type="text" class="validate">
+							<label for="re_address">:آدرس</label>
+						</div>
+						<div class="map map-other-mr" id="mapid2"></div>
 						<div class="input-field col s12">
-							<a class="waves-effect waves-light btn-save-adrs">تایید آدرس</a>
+							<a class="waves-effect waves-light btn-save-adrs">تایید</a>
 						</div>
 					</form>
 				</div>

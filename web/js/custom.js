@@ -51,27 +51,24 @@ $(document).ready(function() {
         $(".sea-drop-2").fadeOut(50);
     });
 
-    // tree view init 
-    var data = [
-        {
-            name: 'node1',
-            children: [
-                { name: 'child1' },
-                { name: 'child2' }
-            ]
-        },
-        {
-            name: 'node2',
-            children: [
-                { name: 'child3' }
-            ]
+    // add address switch
+    var switchStatus = false;
+    $("#togBtn").on('change', function() {
+    if (switchStatus) {
+        $('.rtl-btn .btn-save-adrs').addClass('disabled');
+        switchStatus = false;
+    }
+    else {
+        switchStatus = $(this).is(':checked');
+        $('.rtl-btn .btn-save-adrs').removeClass('disabled');
+        switchStatus = true
         }
-    ];
-    function tvFunc () {
-        $('#tree1').tree({
-            data: data
-        });
-    };
+    });
+
+    // active add request
+    $('.btn-save-adrs').on('click', function() {
+        $('.btn-save-req').removeClass('disabled');
+    })
 
     //ADMIN LEFT MOBILE MENU OPEN
     $(".atab-menu").on('click', function() {
