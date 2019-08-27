@@ -4509,6 +4509,7 @@ button.btn-floating {
     text-transform: none;
     padding-bottom: 0px !important;
     padding-top: 5px;
+    direction: rtl;
 }
 .dropdown-content li:hover,
 .dropdown-content li.active,
@@ -4545,7 +4546,7 @@ button.btn-floating {
 }
 .input-field.col .dropdown-content [type="checkbox"] + label {
     top: 7px;
-    right: -10px;
+    right: 0px;
     height: 18px;
 }
 /*!
