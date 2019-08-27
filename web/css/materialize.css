@@ -5583,8 +5583,8 @@ form p:last-child {
     height: 17px;
     border-top: 2px solid transparent;
     border-left: 2px solid transparent;
-    border-right: 2px solid #14addb;
-    border-bottom: 2px solid #14addb;
+    border-right: 2px solid #f60;
+    border-bottom: 2px solid #f60;
     -webkit-transform: rotate(40deg);
     transform: rotate(40deg);
     -webkit-backface-visibility: hidden;
