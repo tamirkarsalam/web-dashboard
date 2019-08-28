@@ -288,21 +288,21 @@
 			<div class="row">
 				<div class="top-filtering">
 					<div class="list-filtering">
-						<div class="input-field col s2">
-							<input type="submit" value="جستجو" class="waves-effect waves-light tourz-sear-btn">
-						</div>
-						<div class="input-field col s5">
-							<select id="sp">
-								<option value="" disabled selected>مدل دستگاه</option>
-								<option value="">تعمیر تبلت و موبال</option>
-								<option value="">تعمیر یخچال</option>
-								<option value="">تعمیر جاروبرقی</option>
-							</select>
-						</div>
-						<div class="input-field co1 s5 flex1">
-							<input type="text" id="shope-search" class="autocomplete">
-							<label for="shope-search" class="search-hotel-type">جستجو</label>
-						</div>
+						<form class="tourz-search-form">
+							<div class="input-field">
+								<select>
+									<option value="" disabled selected>شهر</option>
+									<option value="1">البرز</option>
+									<option value="2">تهران</option>
+								</select>
+							</div>
+							<div class="input-field">
+								<input type="text" id="select-search" class="autocomplete">
+								<label for="select-search" class="search-hotel-type"><i class="fa fa-map-marker map-compass"></i>نوع و تگ تعمیرات، نام تعمیرکار، تعمیرگاه و شرکت</label>
+							</div>
+							<div class="input-field">
+								<input type="submit" value="جستجو" class="waves-effect waves-light tourz-sear-btn"> </div>
+						</form>
 					</div>
 				</div>
 			</div>

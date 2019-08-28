@@ -5056,7 +5056,7 @@
     }
      .tz-2 {
          float: right;
-         width: 58%;
+         width: 78%;
          position: relative;
          overflow: hidden;
          background: #fff;
@@ -5690,7 +5690,7 @@
     }
      .hid-msg {
          position: relative;
-         overflow: hidden;
+         /*overflow: hidden;*/
          margin-right: 72px;
          /*display: none;*/
     }
@@ -8971,4 +8971,14 @@
     cursor: pointer;
     font-size: 22px;
     margin-left: 8px
+}
+
+.action-msg {
+    border: 1px solid #eaedef;
+    margin-right: 8px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #333;
+}
 }
