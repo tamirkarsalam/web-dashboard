@@ -90,6 +90,7 @@ $(document).ready(function() {
     $(".t-bb").hover(function() {
         $(".cat-menu").fadeIn(50);
     });
+
     $(".ts-menu").mouseleave(function() {
         $(".cat-menu").fadeOut(50);
     });
@@ -114,6 +115,11 @@ $(document).ready(function() {
     //avatar-drp 
     $("#avatar-drp").on('click', function() {
         $(".nav-avatar").toggle("fast");
+    });
+
+    //notif-drp 
+    $("#show-notif").on('click', function() {
+        $(".notif-box").toggle("fast");
     });
 	
     //review replay

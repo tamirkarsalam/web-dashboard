@@ -9005,12 +9005,44 @@
 }
 
 .notif-box {
+    display: none;
     position: absolute;
-    top: 13px;
-    left: 0;
-    width: 200px;
-    background: red;
+    top: 39px;
+    left: -19px;
+    background: #ddd;
     text-align: right;
     padding: 10px;
     border-radius: 3px;
+    width: 210px;
+    height: 191px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+}
+
+.notif-box:before {
+    position: absolute;
+    top: -6px;
+    left: 16px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-top: 1px solid #d1d5d9;
+    border-left: 1px solid #d1d5d9;
+}
+
+.notif-box ul li {
+    cursor: pointer;
+    text-align: right;
+    direction: rtl;
+    color: #737373;
+    font-weight: 500;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid #ddd
 }
