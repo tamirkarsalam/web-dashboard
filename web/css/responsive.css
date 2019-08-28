@@ -355,6 +355,9 @@
     /*-------------------------------------------------------*/
 
     @media screen and (max-width: 767px) {
+    .v3-top-ri ul li a {
+        margin-left: 0
+    }
     .inn-list-pop-desc h3 {
         margin-top: 97px;
         font-size: 20px;
