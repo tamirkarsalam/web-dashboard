@@ -72,6 +72,7 @@
   background-color: #333;
   color: #fff;
   border: 0;
+  border-radius: 3px;
   text-shadow: none; }
 
 .datepicker-plot-area .datepicker-day-view .table-days td span.other-month {
@@ -85,6 +86,7 @@
   background-color: #f60;
   color: #fff;
   border: none;
+  border-radius: 3px;
   text-shadow: 1px 1px 1px #000; }
 
 .datepicker-plot-area .datepicker-day-view .table-days td.selected span .datepicker-plot-area .datepicker-day-view .table-days td:hover, .datepicker-plot-area .datepicker-day-view .table-days td span:hover, .datepicker-plot-area .datepicker-year-view .year-item:hover,
@@ -92,6 +94,7 @@
   background-color: #f60;
   color: #fff;
   border: 0;
+  border-radius: 3px;
   text-shadow: none; }
 
 .datepicker-container {
