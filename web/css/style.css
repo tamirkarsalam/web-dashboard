@@ -8648,7 +8648,7 @@
 
     .mb-30p > span {
        float: right;
-       margin-top: -19px;
+       margin-top: -28px;
     }
 
     .modal-body.list-pg-write-rev {
@@ -8680,6 +8680,7 @@
 
     .upload-wrap {
         display: flex;
+        flex-direction: column-reverse;
         align-items: center;
     }
 

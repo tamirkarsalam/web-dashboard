@@ -729,6 +729,10 @@
     }
 
     @media(max-width: 600px) {
+        .upload-wrap {
+            margin-bottom: 30px
+        }
+
         .tc-ma {
             text-align: center;
             margin: 10px auto
@@ -754,15 +758,25 @@
             margin: 0 auto;
         }
 
+        .mb-30p #togBtn label {
+            margin: 21px auto;
+            width: 143px;
+        }
+
         .flex-col .mb-30p {
-            margin-top: 0 !important;
-            margin-bottom: 30px;
+            margin: 0px auto;
+            float: none;
+            width: 150px !important;
         }
 
         .flex-space {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+        }
+
+        .txt-center {
+            text-align: center;
         }
 
         .txt-left {
@@ -788,7 +802,11 @@
         }
 
         .btn-wr {
-            margin-top: 20px;
+            margin-top: 55px;
+        }
+
+        .mb-30p > span {
+            float: none;
         }
 
     }
@@ -836,6 +854,15 @@
 }
 
 @media (max-width: 500px) {
+    .lr-user-wr-con h6 {
+        display: grid;
+    }
+
+    .lr-user-wr-con h6 span {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
     .tz2-form-com form {
         padding: 35px 10px 35px 10px
     }
