@@ -9003,3 +9003,14 @@
 .changable {
     display: none;
 }
+
+.notif-box {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    width: 200px;
+    background: red;
+    text-align: right;
+    padding: 10px;
+    border-radius: 3px;
+}
