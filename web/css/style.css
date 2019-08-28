@@ -269,7 +269,7 @@
     }
      .ts-menu-1 {
          float: right;
-         width: 19%;
+         width: 14%;
          text-align: right;
     }
      .ts-menu-1 a {
@@ -313,15 +313,22 @@
     }
      .ts-menu-3 {
          float: right;
-         width: 62%;
+         width: 59%;
          padding: 0
     }
+
+    .tab-hide {
+        width: 12%;
+        float: right;
+    }
+
      .ts-menu-4 {
          float: right;
-         width: 19%;
+         width: 15%;
          padding: 11px 0px 0px 1px;
          display: flex;
          flex-direction: row;
+    }
     }
      .top-search {
     }
@@ -6248,8 +6255,8 @@
          height: 23px;
          top: 18px;
          display: initial !important;
-         color: #000;
-         font-size: 20px;
+         color: #fff;
+         font-size: px;
          margin-right: 20px;
     }
      .btn-noti span {
@@ -6261,7 +6268,7 @@
          height: 14px;
          border-radius: 10px;
          min-width: 15px;
-         background: #4CAF50;
+         background: #f5cd23;
          color: #fff;
          line-height: 14px;
          padding: 0px 2px;
@@ -7114,7 +7121,7 @@
     }
      #select-search {
          background: url(../images/icon/search.png) no-repeat left center #fff;
-         border: 0px;
+         border: 1px solid #dfdfdf;
          height: 45px;
          border-radius: 2px;
          padding: 0px 10px 0px 35px;
@@ -8981,4 +8988,8 @@
     font-size: 13px;
     color: #333;
 }
+
+.tourz-search-form.list-search {
+    width: 757px;
+    margin: 0 auto;
 }
