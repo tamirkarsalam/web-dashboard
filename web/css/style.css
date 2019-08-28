@@ -1696,9 +1696,11 @@
          background: #ffffff;
     }
      .dir-alp-con-left {
+        float: right !important;
          padding-right: 0px !important;
     }
      .dir-alp-con-right {
+        float: left;
          padding-bottom: 70px;
     }
      .dir-alp-con-left-1 {
@@ -8503,7 +8505,7 @@
 
     .btm-filtering {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
         margin: 25px 10px 0 10px;
@@ -8667,7 +8669,7 @@
     }
 
     .upload-wrap .default-img {
-        width: 120px;
+        width: 80px;
     }
 
     .upload-wrap .input-field {
@@ -8992,4 +8994,12 @@
 .tourz-search-form.list-search {
     width: 757px;
     margin: 0 auto;
+}
+
+#v3-mob-menu-btn i {
+    margin-left: 0
+}
+
+.changable {
+    display: none;
 }
