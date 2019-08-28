@@ -730,6 +730,10 @@
 
     @media(max-width: 600px) {
         .upload-wrap {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .upload-wrap {
             margin-bottom: 30px
         }
 
@@ -854,6 +858,10 @@
 }
 
 @media (max-width: 500px) {
+    .log-in-pop-right p {
+        line-height: 28px
+    }
+
     .lr-user-wr-con h6 {
         display: grid;
     }
