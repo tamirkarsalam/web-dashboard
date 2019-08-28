@@ -6822,6 +6822,7 @@
     }
 
     .v3-top-ri.avatar .nav-avatar {
+        position: relative;
         width: 210px;
         border-radius: 3px;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
@@ -6832,6 +6833,20 @@
         margin-top: 2px;
         padding: 20px;
         display: none;
+    }
+
+    .v3-top-ri.avatar .nav-avatar:before {
+        position: absolute;
+        top: -6px;
+        left: 16px;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        border-top: 1px solid #d1d5d9;
+        border-left: 1px solid #d1d5d9;
     }
 
     .v3-top-ri.avatar .nav-avatar a { 
