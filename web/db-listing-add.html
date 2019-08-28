@@ -693,8 +693,11 @@
 		}).addTo(mymap);
 		// init date picker
 		$(".dp-date").pDatepicker({
-			initialValue: false
-		});
+			initialValue: false,
+			observer: true,
+			format: 'YYYY/MM/DD',
+			altField: '.observer-example-alt'
+	});
 	</script>
 </body>
 

@@ -131,6 +131,7 @@ $(document).ready(function() {
 			$(".req-nxt-1").removeClass("nxt-act");
 		}
 	});
+    
 	//What you looking for - Next button
     $(".req-nxt-1").on('click', function() {
 		$(".req-nxt-1").hide();
