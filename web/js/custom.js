@@ -121,6 +121,11 @@ $(document).ready(function() {
     $("#show-notif").on('click', function() {
         $(".notif-box").toggle("fast");
     });
+
+    //inbox-drp 
+    $("#show-inbox").on('click', function() {
+        $(".inbox-box").toggle("fast");
+    });
 	
     //review replay
     $(".edit-replay").on('click', function() {

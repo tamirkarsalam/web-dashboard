@@ -9036,7 +9036,24 @@
     background-color: #ffffff;
 }
 
-.notif-box:before {
+.inbox-box {
+    display: none;
+    position: absolute;
+    top: 39px;
+    left: -19px;
+    background: #ddd;
+    text-align: right;
+    padding: 10px;
+    border-radius: 3px;
+    width: 210px;
+    height: 191px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #e5e5e5;
+    background-color: #ffffff;
+}
+
+.notif-box:before, .inbox-box:before {
     position: absolute;
     top: -6px;
     left: 16px;
@@ -9050,7 +9067,7 @@
     border-left: 1px solid #d1d5d9;
 }
 
-.notif-box ul li {
+.notif-box ul li, .inbox-box ul li {
     cursor: pointer;
     text-align: right;
     direction: rtl;
