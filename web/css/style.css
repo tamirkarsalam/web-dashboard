@@ -998,7 +998,7 @@
     }
      .dir-ho-t-tit h1 {
          color: #fff;
-         padding-bottom: 35px;
+         padding-bottom: 25px;
          text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.9);
          padding-top: 3%;
          font-size: 60px;
@@ -1006,11 +1006,11 @@
      .dir-ho-t-tit-2{
     }
      .dir-ho-t-tit-2 h1{
-         padding-top: 10%;
+         padding-top: 7.5%;
     }
      .dir-ho-t-tit p {
          color: #fff;
-         padding-bottom: 35px;
+         padding-bottom: 20px;
          text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.9);
         /* padding-top: 10%;
          */
@@ -8897,7 +8897,7 @@
 .lr-user-wr-con .bottom > div {
     margin-left: 10px;
     border: 1px solid #ddd;
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 3px;
     cursor: pointer;
     color: #4a4a4a;
@@ -8921,7 +8921,7 @@
 }
 
 .tz-2.wide {
-    width: 78%
+    /*width: 78%*/
 }
 
 .final-step-chat {
@@ -9078,4 +9078,8 @@
     height: 40px;
     align-items: center;
     border-bottom: 1px solid #ddd
+}
+
+.mb {
+	margin-bottom: 35px
 }

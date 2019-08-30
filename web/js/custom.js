@@ -98,16 +98,16 @@ $(document).ready(function() {
     // show search box 
     $(".map-compass").click(function() {
         $(".search-map").fadeIn();
-        var n = $(document).height();
-        $('html, body').animate({ scrollTop: 300 }, 50);
-        $(".tourz-search-form").animate({'margin-bottom': '90'}, 'slow');
+        // var n = $(document).height();
+        // $('html, body').animate({ scrollTop: 300 }, 50);
+        // $(".tourz-search-form").animate({'margin-bottom': '90'}, 'slow');
     });
 
     // hide search box 
     $(".map-close").click(function() {
-        $(".tourz-search-form").animate({'margin-bottom': '0'}, 'slow');
-        var n = $(document).height();
-        $('html, body').animate({ scrollTop: -300 }, 50);
+        // $(".tourz-search-form").animate({'margin-bottom': '0'}, 'slow');
+        // var n = $(document).height();
+        // $('html, body').animate({ scrollTop: -300 }, 50);
         $(".search-map").fadeOut();
 
     });
