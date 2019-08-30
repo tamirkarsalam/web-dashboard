@@ -615,6 +615,8 @@
 #frame .content .message-input .wrap {
   position: absolute;
   bottom: 0;
+  right: 0;
+  left: 0
 }
 #frame .content .message-input .wrap input {
   font-family: 'IRSans-regular';
