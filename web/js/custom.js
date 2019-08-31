@@ -131,6 +131,13 @@ $(document).ready(function() {
     $(".edit-replay").on('click', function() {
         $(".hide-box").show();
     });
+
+    // toggle filterbar
+    $(".filtering-btn").click(function () {
+        $(".filter-togg").slideToggle("slow");
+        // $(".navtoggleclose").slideToggle("slow");
+    });
+    
 	
 	//What you looking for checkbox
 	$('.req-pop-sec-1 input:checkbox').on('change', function(){

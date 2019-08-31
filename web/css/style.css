@@ -9083,3 +9083,27 @@
 .mb {
 	margin-bottom: 35px
 }
+
+.filtering-btn {
+    background-color: #ddd;
+    display: none;
+    width: 100%;
+    cursor: pointer;
+    height: 60px;
+    font-size: 17px;
+    font-family: 'IRSans-medium'
+}
+
+@media (max-width: 767px) {
+    .filtering-btn {
+        color: #737373;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .filter-togg {
+        display: none;
+    }
+}
+
