@@ -4287,7 +4287,7 @@
      .list-pg-write-rev form input {
          height: 45px;
          position: relative;
-         padding: 15px 24px;
+         padding: 15px 21px;
          box-sizing: border-box;
          box-shadow: none;
          border: 1px solid #e8e8e8;
@@ -6916,7 +6916,7 @@
     }   
      .v3-mob-m-2 {
          float: left;
-         padding: 8px 15px;
+         padding: 8px 15px 8px 0;
     }
      .v3-mob-m-2 ul {
     }
@@ -9107,3 +9107,16 @@
     }
 }
 
+.flex-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-time input::placeholder {
+    color: #737373;
+}
+
+.label_time {
+    margin: 0 10%;
+}

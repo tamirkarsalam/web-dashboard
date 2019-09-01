@@ -821,9 +821,10 @@
 				<div class="add-address list-pg-write-rev">
 					<form>
 						<div class="row flex-col">
-							<div class="input-field col s6">
-								<input id="re_date" type="time" class="validate">
-								<label for="re_date">زمان</label>
+							<div class="input-field col s6 flex-time">
+								<input type="number" min="0" max="23" placeholder="23" class="validate">:
+								<input type="number" min="0" max="59" placeholder="00" class="validate">
+								<span class="label_time">زمان</span>
 							</div>
 							<div class="input-field col s6">
 								<input id="re_date" type="text" class="validate dp-date">
