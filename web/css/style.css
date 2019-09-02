@@ -9113,10 +9113,15 @@
     align-items: center;
 }
 
+.flex-time input {
+    width: 40% !important
+}
+
 .flex-time input::placeholder {
     color: #737373;
 }
 
 .label_time {
-    margin: 0 10%;
+    width: 10%;
+    margin: 0 10px;
 }
